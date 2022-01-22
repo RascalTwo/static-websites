@@ -66,7 +66,7 @@ a[href="#main-content"]:focus {
 
 /* #region Nav */
 
-nav {
+header nav {
 	padding: 0.5rem 1rem 1rem 1rem;
 	max-width: 1200px;
 	margin: auto;
@@ -78,33 +78,33 @@ nav {
 	border-bottom: 1px solid rgb(214, 216, 218);
 }
 
-nav > div:first-of-type {
+header nav > div:first-of-type {
 	float: left;
 }
 
-nav > div:first-of-type > * {
+header nav > div:first-of-type > * {
 	float: left;
 	height: 2rem;
 	margin-right: 2.5rem;
 }
 
-nav > a {
+header nav > a {
 	display: inline-block;
 }
 
-nav > a:hover {
+header nav > a:hover {
 	fill: hsl(219, 89%, 52%);
 }
 
-nav > a:is(:active, :focus) {
+header nav > a:is(:active, :focus) {
 	outline: 4px solid hsl(219, 89%, 52%);
 }
 
-nav > div:last-of-type {
+header nav > div:last-of-type {
 	float: right;
 }
 
-nav > div:last-of-type > div > * {
+header nav > div:last-of-type > div > * {
 	display: inline-block;
 	height: 2rem;
 	line-height: 2rem;
@@ -113,7 +113,7 @@ nav > div:last-of-type > div > * {
 	color: hsl(219, 89%, 52%);
 }
 
-nav > div:last-of-type > div > *:is(:active, :focus) {
+header nav > div:last-of-type > div > *:is(:active, :focus) {
   border-bottom: 2px solid rgb(24, 101, 242);
 }
 
@@ -349,3 +349,86 @@ details ul li a:is(:hover, :focus) {
 /* #endregion Courses Dropdown */
 
 /* #endregion Nav */
+
+/* #region Hero */
+
+main > section {
+	max-width: 1200px;
+	overflow: auto;
+	margin: auto;
+	margin-top: 5rem;
+}
+
+main > section > svg {
+	float: left;
+	width: 55%;
+	padding-left: 7.5%;
+	padding-right: 2.5%;
+}
+
+main > section > div {
+	float: left;
+	width: 45%;
+}
+
+main > section > div > * {
+	margin-top: 2.5rem;
+}
+
+main > section > div > h1 {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
+	font-size: 53px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	line-height: 2rem;
+}
+
+main nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+main nav ul li {
+	display: inline-block;
+}
+
+main nav ul li a {
+	color: white;
+	background-color: rgb(24, 101, 242);
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 0.1rem;
+}
+
+main nav ul li a:is(:hover, :focus, :active) {
+	box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #1865f2 !important
+}
+
+
+@keyframes realResultsSwoosh {
+	to {
+		stroke-dashoffset:0;
+	}
+}
+
+main section div h1 svg path {
+	animation: realResultsSwoosh ease-in-out forwards;
+}
+
+main section div h1 + p {
+	margin-top: -2.5rem;
+}
+
+main section div h1 svg {
+	position: relative;
+	top: -2rem;
+	width: 60%;
+	left: -0.5rem
+}
+
+/* #endregion Hero */
