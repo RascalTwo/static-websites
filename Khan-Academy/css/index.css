@@ -6,10 +6,6 @@ body {
 	font-family: 'Source Serif Pro', serif;
 }
 
-a:visited {
-	color: inherit;
-}
-
 /* #region Alert */
 
 .alert {
@@ -67,3 +63,122 @@ a[href="#main-content"]:focus {
 }
 
 /* #endregion */
+
+/* #region Nav */
+
+nav {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: hsl(219, 89%, 52%);
+	font-size: 16px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block
+}
+
+/* #region Courses Dropdown */
+
+summary {
+	user-select: none;
+}
+
+summary::marker{
+	content: "";
+}
+
+summary::after {
+	content: " ▼";
+	right: 1em;
+	font-size: 0.5em;
+	vertical-align: middle;
+}
+
+details {
+	position: relative;
+}
+
+details[open] > summary::after {
+	content: " ▲";
+}
+
+details > section {
+	position: absolute;
+	background: white;
+	width: 99vw;
+	top: 2em;
+	padding-bottom: 2.5rem;
+	left: -2rem;
+}
+
+details h2 > a {
+	text-transform: uppercase;
+	color: rgb(10, 42, 102);
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+details h2 > a:is(:hover, :focus) {
+	color: hsl(219, 89%, 52%);
+	text-decoration: underline ;
+}
+
+details > section > section {
+	float: left;
+	width: 24.5vw;
+}
+details > section > section:first-of-type {
+	padding-left: 1vw;
+}
+
+@media (max-width: 800px) {
+	details > section > section {
+		width: 49vw;
+	}
+	details > section > section:nth-of-type(-n+2) {
+		float: left;
+		padding-left: 1vw;
+	}
+	details > section > section:nth-last-of-type(-n+2) {
+		float: right;
+	}
+}
+
+@media (max-width: 400px) {
+	details > section > section {
+		float: none;
+		width: 100%;
+		padding-left: 1vw;
+	}
+}
+
+details ul {
+	padding: 0;
+	width: 80%;
+}
+
+details ul li {
+	padding: .5rem 0;
+	display: block;
+}
+
+details ul li a {
+	font-size: 16px;
+	color: hsl(219, 89%, 52%);
+	text-decoration: none;
+}
+
+details ul li a:is(:hover, :focus) {
+	color: hsl(219, 89%, 52%);
+	text-decoration: underline ;
+}
+
+/* #endregion Courses Dropdown */
+
+/* #endregion Nav */
