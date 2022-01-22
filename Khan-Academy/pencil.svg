@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" fill="none" viewBox="100 115 800 539" class="_h9nhhz6 _1xhfxo7 ">
+	<mask height="591" id="lohp_space_exploration_purple_mask" mask-type="alpha" maskUnits="userSpaceOnUse" width="577" x="305" y="114">
+		<path d="M407.043 478.065C359.415 487.92 340.339 481.278 312.861 470.146C307.657 468.038 304.424 473.947 309.037 477.15C324.724 488.039 342.86 499.716 355.54 505.407C381.607 517.106 437.99 540.671 462.684 544.142C487.013 547.561 529.464 550.881 559.337 553.218L560.676 553.323C590.608 555.664 646.666 519.492 699.338 506.377C752.01 493.261 791.179 453.424 805.517 441.808C819.856 430.192 857.463 373.778 825.526 312.467C793.589 251.157 718.194 265.384 690.924 268.151C663.653 270.919 619.861 293.892 587.713 328.833C555.564 363.774 542.48 400.963 524.379 418.938C506.279 436.913 469.396 465.162 407.043 478.065Z" fill="#ffffff"></path>
+	</mask>
+	<g mask="url(#lohp_space_exploration_purple_mask)">
+		<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_purple_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_purple_v31.jpeg" height="610.52" width="723.098" x="221.416" y="96.7527"></image>
+	</g>
+	<g style="transform: translateY(1.1564px) translateX(0px) translateZ(0px); will-change: transform;">
+		<mask height="561" id="lohp_space_exploration_space_mask" mask-type="alpha" maskUnits="userSpaceOnUse" width="520" x="323" y="51">
+			<path d="M461.097 331.453C481.966 294.582 464.555 285.66 494.406 206.372C518.178 143.289 536.304 130.048 544.391 124.977C578.112 103.849 618.902 110.896 638.298 114.233C668.34 119.417 691.911 132.198 703.796 138.751C717.055 146.07 724.21 150.012 732.447 157.804C756.975 181.043 762.409 211.486 765.602 229.308C766.515 234.394 770.248 256.577 766.038 291.189C762.235 322.499 753.868 391.174 705.866 429.324C692.036 440.322 670.979 451.895 664.095 455.68C652.954 461.823 639.364 469.213 620.173 476.179C599.74 483.601 583.468 486.704 578.726 487.552C558.91 491.154 542.67 494.098 522.132 491.056C512.702 489.655 504.954 487.379 473.566 481.67C470.395 481.104 468.297 480.714 465.666 480.283C448.704 477.478 439.634 477.039 429.313 475.709C416.275 474.05 406.616 471.657 399.334 469.85C371.279 462.908 350.602 453.07 350.391 453.587C350.269 453.891 357.603 457.297 357.717 457.077C357.872 456.793 346.553 449.832 332.132 443.377C325.537 440.432 325.144 440.634 324.806 439.887C319.944 428.719 420.238 403.638 461.097 331.453Z" fill="#ffffff"></path>
+		</mask>
+		<g mask="url(#lohp_space_exploration_space_mask)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_space_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_space_v31.jpeg" height="590" width="701.5" x="232" y="37"></image>
+		</g>
+	</g>
+	<g style="transform: translateY(1.7346px) translateX(0px) translateZ(0px); will-change: transform;">
+		<path d="M532.111 176.942H375.487V187.828H532.111V176.942Z" fill="#FFB100" stroke="#FFB100" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7547"></path>
+		<path d="M532.102 187.816L545.759 187.816L545.759 176.93L532.102 176.93L532.102 187.816Z" fill="#F7F8FA" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7547"></path>
+		<path d="M364.602 185.123V179.647L375.487 176.942L378.258 179.185L375.487 182.352L378.258 185.585L375.487 187.828L364.602 185.123Z" fill="#F7F8FA" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7547"></path>
+		<path d="M364.602 185.123V179.647L353.716 182.352L364.602 185.123Z" fill="#21242C" stroke="#21242C" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7547"></path>
+		<path d="M554.806 187.828H545.701V176.942H554.806C557.841 176.942 560.282 179.383 560.282 182.418C560.282 185.387 557.841 187.828 554.806 187.828Z" fill="#FA50AE" stroke="#FA50AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.7547"></path>
+		<path d="M536.663 182.352V180.571" stroke="#37C5FD" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7547"></path>
+		<path d="M541.216 182.352V180.571" stroke="#37C5FD" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7547"></path>
+		<rect fill="#00E5AE" height="90.6138" width="77.6223" x="449.402" y="353.104"></rect>
+		<path d="M456.835 189.081C450.304 189.081 445.026 194.359 445.026 200.891V340.031C445.026 350.191 453.273 358.372 463.367 358.372H468.645V200.891C468.645 194.359 463.367 189.081 456.835 189.081Z" fill="#00E5AE" stroke="#00E5AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M480.453 242.257C473.921 242.257 468.643 247.535 468.643 254.067V358.373H492.262V254.067C492.262 247.535 486.984 242.257 480.453 242.257Z" fill="#00E5AE" stroke="#00E5AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M409.992 268.119C404.318 271.352 402.405 278.609 405.638 284.283L441.528 346.563C445.751 353.886 453.536 358.373 461.98 358.373H478.078L426.156 272.408C422.857 266.8 415.6 264.821 409.992 268.119Z" fill="#00E5AE" stroke="#00E5AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M504.072 248.129C497.541 248.129 492.263 253.407 492.263 259.938V358.373H515.882V259.938C515.882 253.407 510.604 248.129 504.072 248.129Z" fill="#00E5AE" stroke="#00E5AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M527.758 254.066C521.227 254.066 515.949 259.344 515.949 265.876V358.373C529.012 358.373 539.568 347.817 539.568 334.754V265.876C539.568 259.344 534.29 254.066 527.758 254.066Z" fill="#00E5AE" stroke="#00E5AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M405.637 284.217C408.145 282.766 411.179 282.898 413.488 284.217C413.488 282.898 413.159 281.512 412.433 280.259C410.718 277.29 407.353 275.838 404.186 276.432" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M409.596 291.078C412.103 289.627 413.555 286.988 413.555 284.283C411.18 282.897 408.211 282.831 405.704 284.283" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M468.643 254.067V288.506C468.643 295.037 473.921 300.315 480.453 300.315C486.984 300.315 492.262 295.037 492.262 288.506V254.067C492.262 247.535 486.984 242.257 480.453 242.257C473.921 242.257 468.643 247.535 468.643 254.067Z" fill="#00E5AE" stroke="#00E5AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M480.453 287.516C477.55 287.516 474.977 285.933 473.658 283.558C472.998 284.745 472.602 286.065 472.602 287.516C472.602 291.87 476.099 295.367 480.453 295.367C484.807 295.367 488.304 291.87 488.304 287.516C488.304 286.065 487.908 284.745 487.248 283.558C485.929 285.933 483.356 287.516 480.453 287.516Z" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M480.453 287.516C484.206 287.516 487.248 285.744 487.248 283.558C487.248 281.371 484.206 279.599 480.453 279.599C476.7 279.599 473.657 281.371 473.657 283.558C473.657 285.744 476.7 287.516 480.453 287.516Z" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M468.644 254.067V288.506C468.644 295.037 473.922 300.315 480.453 300.315C486.985 300.315 492.263 295.037 492.263 288.506V259.939" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M492.262 259.938V294.377C492.262 300.908 497.54 306.186 504.071 306.186C510.603 306.186 515.881 300.908 515.881 294.377V259.938C515.881 253.407 510.603 248.129 504.071 248.129C497.54 248.129 492.262 253.407 492.262 259.938Z" fill="#00E5AE" stroke="#00E5AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M504.07 293.453C501.167 293.453 498.594 291.87 497.275 289.495C496.615 290.682 496.219 292.002 496.219 293.453C496.219 297.807 499.716 301.304 504.07 301.304C508.425 301.304 511.921 297.807 511.921 293.453C511.921 292.002 511.525 290.682 510.866 289.495C509.546 291.87 507.039 293.453 504.07 293.453Z" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M504.069 293.453C507.822 293.453 510.864 291.681 510.864 289.495C510.864 287.308 507.822 285.536 504.069 285.536C500.316 285.536 497.273 287.308 497.273 289.495C497.273 291.681 500.316 293.453 504.069 293.453Z" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M492.261 259.939V294.378C492.261 300.909 497.539 306.187 504.071 306.187C510.602 306.187 515.88 300.909 515.88 294.378V265.811" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M515.945 265.876V300.315C515.945 306.846 521.223 312.124 527.755 312.124C534.286 312.124 539.564 306.846 539.564 300.315V265.876C539.564 259.344 534.286 254.066 527.755 254.066C521.223 254.066 515.945 259.344 515.945 265.876Z" fill="#00E5AE" stroke="#00E5AE" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M527.756 299.325C524.853 299.325 522.28 297.741 520.96 295.366C520.301 296.554 519.905 297.873 519.905 299.325C519.905 303.679 523.401 307.176 527.756 307.176C532.11 307.176 535.607 303.679 535.607 299.325C535.607 297.873 535.211 296.554 534.551 295.366C533.166 297.741 530.659 299.325 527.756 299.325Z" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M527.755 299.325C531.508 299.325 534.551 297.553 534.551 295.367C534.551 293.18 531.508 291.408 527.755 291.408C524.002 291.408 520.96 293.18 520.96 295.367C520.96 297.553 524.002 299.325 527.755 299.325Z" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+		<path d="M515.882 265.876V300.315C515.882 306.846 521.16 312.124 527.691 312.124" stroke="#F7F8FA" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.9845"></path>
+	</g>
+	<mask height="99" id="lohp_space_exploration_orange_mask" mask-type="alpha" maskUnits="userSpaceOnUse" width="119" x="688" y="548">
+		<path d="M707.139 558.912C708.122 557.816 709.343 556.959 710.705 556.4C726.003 550.122 733.26 548 744.446 548C756.126 548 775.979 549.735 780.26 552.629C784.542 555.523 796.611 568.248 798.557 573.454C800.504 578.659 806.732 621.275 806.344 628.023C805.955 634.771 784.154 639.592 774.811 643.448C765.469 647.305 753.791 647.497 737.05 640.556C720.309 633.616 703.571 633.616 698.122 622.045C694.295 613.919 690.851 604.842 689.139 600.159C688.386 598.096 688.371 595.857 689.065 593.774C691.239 587.257 696.056 572.92 696.954 571.138C697.846 569.369 704.194 562.197 707.139 558.912Z" fill="#ffffff"></path>
+	</mask>
+	<g mask="url(#lohp_space_exploration_orange_mask)">
+		<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_orange_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_orange_v31.jpeg" height="176.228" width="217.795" x="638.302" y="509.333"></image>
+	</g>
+	<g style="transform: translateY(4.0474px) translateX(0px) translateZ(0px); will-change: transform;">
+		<mask height="109" id="unexpected_sal_head_mask" mask-type="alpha" maskUnits="userSpaceOnUse" width="90" x="0" y="0">
+			<path d="M14.6627 29.3005C13.3276 35.6117 14.1335 42.7055 14.1335 42.7055C14.1335 42.7055 13.5085 44.8811 14.5906 49.8904C15.6727 54.8997 14.7082 56.3441 14.7082 56.3441C14.7082 56.3441 14.4469 59.9154 13.4974 62.8465C12.5478 65.7776 13.3237 69.8979 13.0475 71.9824C12.7713 74.0669 17.4345 83.9548 18.6593 87.5108C19.8841 91.0667 20.3538 94.298 21.5394 95.7027C22.725 97.1074 24.1167 99.8745 28.0015 100.202C31.8864 100.529 38.7249 102.47 45.6853 99.1622C52.6457 95.8543 59.1054 94.913 62.4306 83.0885C62.4306 83.0885 64.2712 85.2911 66.5975 83.6402C68.9237 81.9894 71.6021 77.1162 72.1362 74.5918C72.6702 72.0673 74.0929 69.2362 74.0929 69.2362L75.1276 64.345C75.1276 64.345 80.8665 54.3498 81.8771 48.7942C82.8876 43.2385 85.1597 37.9497 80.7693 29.1085C76.379 20.2674 74.7962 17.6248 70.0745 15.8017C65.3528 13.9787 52.9834 6.25192 52.028 6.87403C51.0726 7.49613 48.5161 7.12016 48.5161 7.12016C48.5161 7.12016 42.9634 6.11036 40.7464 6.46558C38.5295 6.82081 34.975 8.04699 33.1886 9.48234C31.4022 10.9177 29.64 13.0175 28.0538 13.5062C26.4677 13.9949 23.1043 15.0966 21.8577 16.3165C20.6111 17.5364 20.6595 18.8653 18.2089 20.325C15.7583 21.7847 14.727 23.5446 14.6085 25.6625C14.49 27.7804 14.6627 29.3005 14.6627 29.3005Z" fill="#ffffff"></path>
+		</mask>
+		<g mask="url(#unexpected_sal_head_mask)" style="transform: translateX(726px) translateY(215px); transition: transform 2s ease-in-out 1s;"></g>
+		<path d="M629.105 154.142C624.674 154.393 622.633 170.945 620.39 180.092L821.412 229.379C824.462 222.882 829.938 208.866 827.444 204.778C824.328 199.667 633.537 153.891 629.105 154.142Z" fill="#0F2C65"></path>
+		<path d="M591.51 320.317C604.453 325.308 747.387 361.444 767.876 365.377L784.295 369.403C788.495 370.433 788.554 362.731 793.1 347.488C797.647 332.245 824.883 227.772 823.685 222.752C822.486 217.733 642.631 171.52 623.776 173.738C615.834 174.672 578.566 315.326 591.51 320.317Z" fill="#F1F6FF"></path>
+		<mask height="190" id="lohp_space_exploration_window_mask" mask-type="alpha" maskUnits="userSpaceOnUse" width="209" x="613" y="180">
+			<path d="M615.192 326.702C626.395 331.266 750.676 362.829 768.529 366.115L782.809 369.617C786.461 370.512 786.745 362.866 791.192 347.598C795.64 332.331 822.676 227.809 821.776 222.863C820.877 217.917 664.515 177.464 647.91 180.234C640.916 181.4 603.99 322.138 615.192 326.702Z" fill="#ffffff"></path>
+		</mask>
+		<path style="stroke: rgb(235, 239, 248); stroke-dasharray: 15.6116px; stroke-dashoffset: 15.6116px; animation-delay: 0ms; animation-duration: 137.392ms;" class="_t1oee9 " d="M632.832 163.495C635.687 161.804 638.265 164.561 637.579 166.253C636.893 167.944 631.481 169.008 632.832 163.495Z"></path>
+		<path style="stroke: rgb(235, 239, 248); stroke-dasharray: 14.0814px; stroke-dashoffset: 14.0814px; animation-delay: 137.392ms; animation-duration: 137.392ms;" class="_t1oee9 " d="M644.858 166.31C645.152 169.294 641.898 170.235 640.772 168.993C639.645 167.751 640.847 162.971 644.858 166.31Z"></path>
+		<path style="stroke: rgb(235, 239, 248); stroke-dasharray: 11.5245px; stroke-dashoffset: 11.5245px; animation-delay: 274.783ms; animation-duration: 137.392ms;" class="_t1oee9 " d="M647.791 166.864C650.169 166.259 651.331 168.775 650.465 169.84C649.598 170.904 645.583 170.52 647.791 166.864Z"></path>
+		<path style="stroke: rgb(207, 219, 233); stroke-width: 3px; stroke-dasharray: 20.3049px; stroke-dashoffset: 20.3049px; animation-delay: 1000ms; animation-duration: 203.054ms;" class="_t1oee9 " d="M631.159 190.212L650.767 195.486"></path>
+		<path style="stroke: rgb(207, 219, 233); stroke-width: 3px; stroke-dasharray: 20.3052px; stroke-dashoffset: 20.3052px; animation-delay: 1203.05ms; animation-duration: 203.054ms;" class="_t1oee9 " d="M629.415 196.691L649.023 201.966"></path>
+		<path style="stroke: rgb(207, 219, 233); stroke-width: 3px; stroke-dasharray: 20.3061px; stroke-dashoffset: 20.3061px; animation-delay: 1406.11ms; animation-duration: 203.054ms;" class="_t1oee9 " d="M627.671 203.173L647.28 208.448"></path>
+		<path style="stroke: rgb(207, 219, 233); stroke-width: 3px; stroke-dasharray: 20.3051px; stroke-dashoffset: 20.3051px; animation-delay: 1609.16ms; animation-duration: 203.054ms;" class="_t1oee9 " d="M625.931 209.656L645.539 214.931"></path>
+		<path style="stroke: rgb(207, 219, 233); stroke-width: 3px; stroke-dasharray: 20.3059px; stroke-dashoffset: 20.3059px; animation-delay: 1812.22ms; animation-duration: 203.054ms;" class="_t1oee9 " d="M624.185 216.136L643.794 221.41"></path>
+		<g mask="url(#lohp_space_exploration_window_mask)">
+			<path d="M632.066 354.849C643.142 359.931 767.347 391.803 785.276 394.78L799.556 398.281C803.208 399.176 804.03 389.334 809.619 369.412C815.208 349.49 849.999 213.34 849.429 207.049C848.859 200.758 692.645 159.703 675.563 164.42C668.368 166.406 620.99 349.768 632.066 354.849Z" fill="white"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 19.0138px; stroke-dashoffset: 19.0138px; animation-delay: 1000ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M703.072 294.467L698.299 312.872"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 95.0698px; stroke-dashoffset: 95.0698px; animation-delay: 1336.14ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M726.013 271.149L712.755 257.89L694.356 262.94L689.631 281.161L703.114 295.068L721.288 289.37"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 16.2285px; stroke-dashoffset: 16.2285px; animation-delay: 1672.29ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M724.792 289.375L728.842 273.66"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 19.0801px; stroke-dashoffset: 19.0801px; animation-delay: 2008.43ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M669.986 288.019L679.182 285.48L688.378 282.941"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 19.0799px; stroke-dashoffset: 19.0799px; animation-delay: 2344.57ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M669.188 285.15L678.384 282.611L687.58 280.073"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 19.0794px; stroke-dashoffset: 19.0794px; animation-delay: 2680.71ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M716.396 237.815L713.983 247.044L711.57 256.274"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 19.0802px; stroke-dashoffset: 19.0802px; animation-delay: 3016.86ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M719.278 238.562L716.866 247.792L714.453 257.022"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 19.079px; stroke-dashoffset: 19.079px; animation-delay: 3353ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M760.525 255.417L753.831 262.214L747.137 269.01"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 93.9076px; stroke-dashoffset: 93.9076px; animation-delay: 3689.14ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M745.452 270.375L752.351 287.844L737.868 299.803L722.02 289.725L726.707 271.538L745.452 270.375Z"></path>
+			<path style="stroke: rgb(207, 219, 233); stroke-width: 2px; stroke-dasharray: 16.5246px; stroke-dashoffset: 16.5246px; animation-delay: 4025.29ms; animation-duration: 336.143ms;" class="_t1oee9 " d="M749.383 286.572L736.544 296.975"></path>
+			<circle fill="#36CDA0" r="5.51401" transform="matrix(-0.967986 -0.251005 -0.251005 0.967986 694.266 262.524)"></circle>
+			<circle fill="#50B3C6" r="5.51401" transform="matrix(-0.967986 -0.251005 -0.251005 0.967986 669.664 286.966)"></circle>
+			<circle fill="#50B3C6" r="5.51401" transform="matrix(-0.967986 -0.251005 -0.251005 0.967986 717.729 238.409)"></circle>
+			<circle fill="#FDB31F" r="5.51401" transform="matrix(-0.967986 -0.251005 -0.251005 0.967986 698.149 314.209)"></circle>
+			<circle fill="#E5666F" r="5.51401" transform="matrix(-0.967986 -0.251005 -0.251005 0.967986 703.614 293.176)"></circle>
+			<circle fill="#FDB31F" r="5.51401" transform="matrix(-0.967986 -0.251005 -0.251005 0.967986 761.144 255.184)"></circle>
+			<circle fill="#E5666F" r="5.51401" transform="matrix(-0.967986 -0.251005 -0.251005 0.967986 746.126 270.105)"></circle>
+			<circle fill="#E5666F" r="5.51401" transform="matrix(-0.967986 -0.251005 -0.251005 0.967986 738.639 299.155)"></circle>
+		</g>
+		<path d="M736.658 335.582C736.143 336.118 734.235 342.768 734.21 343.77L734.016 344.538C733.967 344.735 735.168 344.791 738.374 345.639C741.58 346.487 763.723 352.402 764.679 352.529C765.635 352.656 767.136 344.306 766.996 343.357C766.855 342.409 737.173 335.046 736.658 335.582Z" fill="#1865F2" class="_18eoub1"></path>
+		<path d="M670.127 196.761C668.54 196.899 666.467 201.924 667.185 202.875L667.048 203.475C667.014 203.629 671.778 204.572 685.057 207.762C698.336 210.953 790.099 233.047 793.956 233.877C797.813 234.707 796.905 227.736 795.581 226.714C794.257 225.692 671.714 196.624 670.127 196.761Z" fill="#DEE1F4"></path>
+		<path d="M668.942 196.479C668.311 196.844 666.812 202.006 666.956 202.82L666.819 203.421C666.785 203.574 668.488 203.789 673.155 204.929C677.823 206.07 710.073 213.997 711.442 214.235C712.812 214.472 713.435 207.865 713.067 207.072C712.7 206.278 669.572 196.114 668.942 196.479Z" fill="#36CDA0"></path>
+	</g>
+	<g style="transform: translateY(4.0474px) translateX(0px) translateZ(0px); will-change: transform;">
+		<mask height="108" id="lohp_space_exploration_planet_mask" mask-type="alpha" maskUnits="userSpaceOnUse" width="108" x="774" y="258">
+			<path d="M788.428 315.791C789.872 303.624 791.003 298.572 795.187 292.158C799.37 285.743 807.622 275.579 811.054 274.464C814.486 273.349 827.156 272.168 831.271 273.322C835.383 274.483 865.571 289.289 869.859 292.397C874.147 295.496 869.501 309.533 868.68 316.317C867.859 323.101 863.804 329.599 853.256 335.82C842.704 342.047 836.709 351.239 827.166 349.284C817.623 347.328 807.094 344.117 807.094 344.117C807.094 344.117 794.451 329.778 793.352 328.146C792.253 326.513 788.428 315.791 788.428 315.791Z" fill="#ffffff"></path>
+		</mask>
+		<g mask="url(#lohp_space_exploration_planet_mask)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_planet_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_planet_v31.jpeg" height="98.7224" width="106.516" x="774.78" y="262.157"></image>
+		</g>
+	</g>
+	<g style="transform: translateY(4.0474px) translateX(0px) translateZ(0px); will-change: transform;">
+		<mask height="218" id="lohp_space_exploration_ice_mask" mask-type="alpha" maskUnits="userSpaceOnUse" width="527" x="128" y="345">
+			<path d="M407.532 435.066C335.74 464.136 196.875 460.502 133.436 443.455C129.066 442.281 125.961 449.176 129.687 452.088C182.288 493.2 308.637 530.804 344.183 545.942C384.145 562.962 406.43 563.2 497.123 561.105C587.817 559.01 592.238 516.566 621.782 493.45C651.327 470.334 654.597 393.16 654.893 371.675C655.188 350.19 638.795 355.545 598.217 346.703C557.638 337.861 488.102 402.443 407.532 435.066Z" fill="#ffffff"></path>
+		</mask>
+		<g mask="url(#lohp_space_exploration_ice_mask)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_ice_v31.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_ice_v31.jpeg" x="-180" y="-229" height="1280" width="1078"></image>
+		</g>
+	</g>
+	<mask height="23" id="lohp_space_exploration_dust_mask_1" mask-type="alpha" maskUnits="userSpaceOnUse" width="14" x="273" y="183">
+		<path d="M281.397 184.768C281.008 183.448 279.35 182.927 278.392 183.934C276.739 185.672 275.838 187.369 275.293 188.414C274.263 190.388 273.866 191.9 273.754 192.35C273.272 194.283 273.329 195.6 273.35 195.976C273.35 195.976 273.395 196.74 273.539 197.448C273.9 199.211 277.168 203.125 281.76 204.803C284.663 205.863 286.766 202.949 285.921 200.088L281.397 184.768Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(4.0474px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_1)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust4.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust4.jpeg" height="27.5" width="27.5" x="268" y="182"></image>
+		</g>
+	</g>
+	<mask height="19" id="lohp_space_exploration_dust_mask_2" mask-type="alpha" maskUnits="userSpaceOnUse" width="12" x="326" y="239">
+		<path d="M336.187 255.693C334.622 257.013 333.926 257.458 332.807 257.49C331.687 257.522 329.773 257.259 329.346 256.74C328.918 256.221 327.688 253.919 327.47 252.969C327.254 252.019 326.409 244.217 326.408 242.976C326.406 241.737 328.469 240.792 329.343 240.059C330.217 239.326 331.335 239.258 332.98 240.485C334.626 241.713 336.23 241.667 336.82 243.775C337.409 245.883 337.935 248.347 337.935 248.347C337.935 248.347 337.325 252.685 337.227 253.113C337.128 253.541 336.187 255.693 336.187 255.693Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(4.6256px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_2)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust1.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust1.jpeg" height="19" width="17" x="324" y="239"></image>
+		</g>
+	</g>
+	<mask height="14" id="lohp_space_exploration_dust_mask_3" mask-type="alpha" maskUnits="userSpaceOnUse" width="10" x="379" y="314">
+		<path d="M383.408 314.771C384.859 314.265 385.466 314.139 386.259 314.417C387.053 314.694 388.324 315.391 388.484 315.869C388.645 316.347 388.891 318.29 388.789 319.014C388.686 319.738 387.189 325.433 386.857 326.303C386.527 327.172 384.828 327.282 384.019 327.562C383.21 327.842 382.408 327.59 381.584 326.289C380.759 324.988 379.622 324.591 379.773 322.955C379.925 321.32 380.216 319.452 380.216 319.452C380.216 319.452 381.805 316.575 381.989 316.301C382.173 316.028 383.408 314.771 383.408 314.771Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(5.2038px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_3)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust1.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust1.jpeg" height="14.2563" transform="rotate(-159.091 387.48 329.735)" width="12.7556" x="387.48" y="329.735"></image>
+		</g>
+	</g>
+	<mask height="16" id="lohp_space_exploration_dust_mask_4" mask-type="alpha" maskUnits="userSpaceOnUse" width="17" x="319" y="355">
+		<path d="M322.617 369.534C321.296 368.714 320.215 367.519 319.619 366.082C319.223 365.127 319.069 364.38 319.062 363.414C319.05 361.848 319.323 359.184 319.807 358.607C320.292 358.029 322.427 356.396 323.304 356.129C324.18 355.862 331.366 354.979 332.505 355.023C333.644 355.067 334.479 357.985 335.139 359.233C335.8 360.481 335.844 362.047 334.689 364.3C333.535 366.552 333.551 368.797 331.604 369.54C331.06 369.748 330.49 369.948 329.952 370.128C328.281 370.688 326.483 370.7 324.779 370.249C323.936 370.026 323.174 369.818 323.014 369.755C322.935 369.724 322.794 369.644 322.617 369.534Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(5.782px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_4)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust2.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust2.jpeg" height="16" width="17" x="319" y="355"></image>
+		</g>
+	</g>
+	<mask height="6" id="lohp_space_exploration_dust_mask_5" mask-type="alpha" maskUnits="userSpaceOnUse" width="6" x="321" y="296">
+		<path d="M322.255 297.21C322.577 296.764 323.147 296.541 323.695 296.489C323.934 296.467 324.133 296.483 324.368 296.542C324.819 296.654 325.564 296.929 325.694 297.111C325.825 297.293 326.136 298.027 326.148 298.298C326.16 298.57 325.884 300.699 325.787 301.023C325.691 301.348 324.791 301.372 324.383 301.47C323.976 301.567 323.523 301.465 322.961 300.967C322.399 300.469 321.753 300.308 321.683 299.694C321.585 298.836 321.778 297.958 322.242 297.229C322.247 297.221 322.251 297.214 322.255 297.21Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(6.3602px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_5)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust2.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust2.jpeg" height="4.74617" transform="rotate(104.399 326.79 297.145)" width="5.04281" x="326.79" y="297.145"></image>
+		</g>
+	</g>
+	<mask height="9" id="lohp_space_exploration_dust_mask_6" mask-type="alpha" maskUnits="userSpaceOnUse" width="8" x="312" y="129">
+		<path d="M313.63 130.709C314.148 129.993 315.063 129.635 315.943 129.552C316.328 129.515 316.647 129.542 317.025 129.636C317.749 129.817 318.947 130.258 319.156 130.55C319.365 130.842 319.865 132.021 319.885 132.457C319.904 132.893 319.461 136.315 319.305 136.835C319.15 137.356 317.704 137.396 317.05 137.552C316.395 137.709 315.668 137.544 314.765 136.744C313.862 135.944 312.824 135.686 312.711 134.699C312.554 133.321 312.865 131.91 313.61 130.74C313.618 130.727 313.625 130.716 313.63 130.709Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(6.9384px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_6)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust2.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust2.jpeg" height="7.62414" transform="rotate(104.399 320.916 130.605)" width="8.10065" x="320.916" y="130.605"></image>
+		</g>
+	</g>
+	<mask height="2" id="lohp_space_exploration_dust_mask_7" mask-type="alpha" maskUnits="userSpaceOnUse" width="2" x="404" y="214">
+		<path d="M404.475 214.31C404.597 214.141 404.813 214.057 405.02 214.037C405.111 214.028 405.186 214.035 405.275 214.057C405.445 214.099 405.727 214.203 405.777 214.272C405.826 214.341 405.944 214.619 405.948 214.722C405.953 214.824 405.849 215.63 405.812 215.753C405.775 215.876 405.435 215.885 405.281 215.922C405.126 215.959 404.955 215.92 404.742 215.732C404.529 215.543 404.285 215.482 404.258 215.25C404.221 214.925 404.295 214.593 404.47 214.317C404.472 214.314 404.474 214.311 404.475 214.31Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(7.5166px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_7)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust2.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust2.jpeg" height="1.79629" transform="rotate(104.399 406.191 214.285)" width="1.90855" x="406.191" y="214.285"></image>
+		</g>
+	</g>
+	<mask height="13" id="lohp_space_exploration_dust_mask_8" mask-type="alpha" maskUnits="userSpaceOnUse" width="14" x="362" y="280">
+		<path d="M375.103 283.265C375.647 285.162 375.791 285.982 375.545 287.19C375.3 288.397 374.658 290.408 374.195 290.781C373.731 291.154 371.835 292.096 371.121 292.173C370.408 292.249 364.775 291.871 363.911 291.668C363.048 291.466 362.883 289.097 362.582 288.038C362.281 286.979 362.501 285.767 363.749 284.204C364.997 282.64 365.349 280.91 366.957 280.624C368.566 280.338 370.407 280.179 370.407 280.179C370.407 280.179 373.281 281.548 373.555 281.725C373.83 281.901 375.103 283.265 375.103 283.265Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(8.0948px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_8)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" height="15" width="16.5" x="361" y="279"></image>
+		</g>
+	</g>
+	<mask height="6" id="lohp_space_exploration_dust_mask_9" mask-type="alpha" maskUnits="userSpaceOnUse" width="6" x="297" y="261">
+		<path d="M298.746 266.507C298.193 265.987 297.984 265.744 297.828 265.297C297.672 264.85 297.489 264.059 297.569 263.844C297.649 263.63 298.09 262.946 298.311 262.78C298.532 262.615 300.468 261.633 300.794 261.53C301.119 261.427 301.639 262.178 301.947 262.469C302.254 262.759 302.42 263.203 302.314 263.965C302.209 264.728 302.433 265.369 301.957 265.779C301.482 266.19 300.904 266.604 300.904 266.604C300.904 266.604 299.685 266.717 299.56 266.712C299.435 266.708 298.746 266.507 298.746 266.507Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(8.673px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_9)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" height="5.76857" transform="rotate(149.264 304.246 265.146)" width="6.34543" x="304.246" y="265.146"></image>
+		</g>
+	</g>
+	<mask height="6" id="lohp_space_exploration_dust_mask_10" mask-type="alpha" maskUnits="userSpaceOnUse" width="6" x="264" y="188">
+		<path d="M265.746 193.507C265.193 192.987 264.984 192.744 264.828 192.297C264.672 191.85 264.489 191.059 264.569 190.844C264.649 190.63 265.09 189.946 265.311 189.78C265.532 189.615 267.468 188.633 267.794 188.53C268.119 188.427 268.639 189.178 268.947 189.469C269.254 189.759 269.42 190.203 269.314 190.965C269.209 191.728 269.433 192.369 268.957 192.779C268.482 193.19 267.904 193.604 267.904 193.604C267.904 193.604 266.685 193.717 266.56 193.712C266.435 193.708 265.746 193.507 265.746 193.507Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(9.2512px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_10)">
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" height="5.76857" transform="rotate(149.264 271.246 192.145)" width="6.34543" x="271.246" y="192.145"></image>
+		</g>
+	</g>
+	<mask height="10" id="lohp_space_exploration_dust_mask_11" mask-type="alpha" maskUnits="userSpaceOnUse" width="9" x="240" y="285">
+		<path d="M244.039 285.663C245.29 285.669 245.815 285.727 246.506 286.091C247.197 286.455 248.307 287.203 248.452 287.551C248.597 287.9 248.833 289.221 248.753 289.669C248.672 290.117 247.441 293.478 247.164 293.968C246.887 294.457 245.416 294.136 244.718 294.131C244.02 294.126 243.322 293.777 242.592 292.74C241.862 291.702 240.872 291.181 240.984 290.151C241.096 289.121 241.326 287.972 241.326 287.972C241.326 287.972 242.67 286.466 242.826 286.331C242.982 286.195 244.039 285.663 244.039 285.663Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(9.8294px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_11)">
+			<rect fill="url(#pattern16)"></rect>
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" height="9.51029" transform="rotate(-73.7204 238.937 293.487)" width="10.4613" x="238.937" y="293.487"></image>
+		</g>
+	</g>
+	<mask height="3" id="lohp_space_exploration_dust_mask_12" mask-type="alpha" maskUnits="userSpaceOnUse" width="3" x="499" y="187">
+		<path d="M501.52 188.058C501.595 188.318 501.615 188.431 501.581 188.596C501.547 188.762 501.459 189.038 501.396 189.089C501.332 189.14 501.072 189.269 500.974 189.28C500.876 189.29 500.103 189.238 499.985 189.21C499.866 189.183 499.844 188.858 499.803 188.712C499.761 188.567 499.791 188.401 499.963 188.187C500.134 187.972 500.182 187.735 500.403 187.695C500.623 187.656 500.876 187.634 500.876 187.634C500.876 187.634 501.27 187.822 501.308 187.846C501.346 187.871 501.52 188.058 501.52 188.058Z" fill="#ffffff"></path>
+	</mask>
+	<g style="transform: translateY(10.4076px) translateX(0px) translateZ(0px); will-change: transform;">
+		<g mask="url(#lohp_space_exploration_dust_mask_12)">
+			<rect fill="url(#pattern22)"></rect>
+			<image style="pointer-events: none;" href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" xlink:href="https://cdn.kastatic.org/images/lohp/space_exploration_dust3.jpeg" height="4.02074" transform="matrix(-0.988012 0.305554 -0.308058 -0.910554 503.062 190.845)" width="5.81995"></image>
+		</g>
+	</g>
+</svg>
