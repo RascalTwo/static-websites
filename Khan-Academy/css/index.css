@@ -6,6 +6,12 @@ body {
 	font-family: 'Source Serif Pro', serif;
 }
 
+a:visited {
+	color: inherit;
+}
+
+/* #region Alert */
+
 .alert {
 	position: relative;
 	background: hsl(219, 89%, 52%);
@@ -25,7 +31,7 @@ body {
 	padding: 0.25rem;
 }
 
-.alert input:hover {
+.alert input:is(:hover, :focus) {
 	border: 2px solid white;
 	right: calc(0.75rem - 2px);
 }
@@ -34,25 +40,30 @@ body {
 	color: white;
 }
 
-.alert a:hover, .alert a:focus {
+.alert a:is(:hover, :focus) {
 	border-bottom: solid 2px white;
 	border-radius: 0 0 1px 1px;
 }
 
-a:visited {
-	color: inherit;
-}
+/* #endregion */
+
+/* #region "Skip To Content" link */
 
 a[href="#main-content"] {
+	z-index: 1;
 	position: absolute;
-	top: 1rem;
-	left: 1rem;
-	opacity: 0;
+	top: -5rem;
+	left: -5rem;
 	transition: opacity 1s;
 	background: white;
 	padding: 1rem;
 	border: 1px solid black;
+	transition: top 1s, left 1s;
 }
+
 a[href="#main-content"]:focus {
-	opacity: 1;
+	top: 1rem;
+	left: 1rem;
 }
+
+/* #endregion */
