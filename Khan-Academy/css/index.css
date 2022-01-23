@@ -433,7 +433,7 @@ main section:nth-of-type(1) div h1 + p {
 main section:nth-of-type(1) div h1 svg {
 	position: relative;
 	top: -2rem;
-	width: 60%;
+	width: 15rem;
 	left: -0.5rem
 }
 
@@ -498,4 +498,88 @@ main section:nth-of-type(2) h3 {
 	font-family: 'Source Serif Pro', serif;
 	font-size: 25px;
 	font-weight: normal;
+}
+
+
+main > section:nth-of-type(3) {
+	max-width: 1200px;
+	overflow: auto;
+	margin: auto;
+	margin-top: 5rem;
+}
+
+main > section:nth-of-type(3) > svg {
+	float: right;
+	width: 55%;
+}
+
+main > section:nth-of-type(3) > div {
+	position: absolute;
+	margin-left: 1rem;
+}
+
+main > section:nth-of-type(3) > div > * {
+	margin-top: 2.5rem;
+}
+
+main > section:nth-of-type(3) > div > span {
+	text-transform: uppercase;
+}
+main > section:nth-of-type(3) > div > h2 {
+	position: relative;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
+	font-size: 44px;
+}
+main > section:nth-of-type(3) > div > h2 div {
+	position: relative;
+}
+main > section:nth-of-type(3) > div > h2 svg {
+	width: 20rem;
+	position: absolute;
+	top: -1.5rem;
+	left: -1.75rem;
+	z-index: -1;
+}
+
+
+main > section:nth-of-type(3) p {
+	width: 24rem;
+	margin-top: -1rem;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+@keyframes keyframe_zfv6xh {
+	to {
+		stroke-dashoffset:0;
+	}
+}
+._t1oee9 {
+	animation: keyframe_zfv6xh ease-in-out forwards;
+}
+
+
+main section:nth-of-type(3) a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #1865F2;
+}
+main section:nth-of-type(3) a:is(:hover, :active, :focus) {
+	text-decoration: underline;
+}
+
+main section:nth-of-type(3) p + a {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	background-color: rgb(24, 101, 242);
+	padding: 0.75rem;
+	border-radius: 0.25rem;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 0.1rem;
+}
+
+main section:nth-of-type(3) p + a:is(:hover, :focus, :active) {
+	box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #1865f2 !important
 }
