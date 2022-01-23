@@ -350,32 +350,38 @@ details ul li a:is(:hover, :focus) {
 
 /* #endregion Nav */
 
+main > section {
+	overflow: auto;
+	margin: auto;
+	margin-top: 5rem;
+}
+
 /* #region Hero */
 
-main > section {
+main > section:nth-of-type(1) {
 	max-width: 1200px;
 	overflow: auto;
 	margin: auto;
 	margin-top: 5rem;
 }
 
-main > section > svg {
+main > section:nth-of-type(1) > svg {
 	float: left;
 	width: 55%;
 	padding-left: 7.5%;
 	padding-right: 2.5%;
 }
 
-main > section > div {
+main > section:nth-of-type(1) > div {
 	float: left;
 	width: 45%;
 }
 
-main > section > div > * {
+main > section:nth-of-type(1) > div > * {
 	margin-top: 2.5rem;
 }
 
-main > section > div > h1 {
+main > section:nth-of-type(1) > div > h1 {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: bold;
 	font-size: 53px;
@@ -416,15 +422,15 @@ main nav ul li a:is(:hover, :focus, :active) {
 	}
 }
 
-main section div h1 svg path {
+main section:nth-of-type(1) div h1 svg path {
 	animation: realResultsSwoosh ease-in-out forwards;
 }
 
-main section div h1 + p {
+main section:nth-of-type(1) div h1 + p {
 	margin-top: -2.5rem;
 }
 
-main section div h1 svg {
+main section:nth-of-type(1) div h1 svg {
 	position: relative;
 	top: -2rem;
 	width: 60%;
@@ -432,3 +438,64 @@ main section div h1 svg {
 }
 
 /* #endregion Hero */
+
+main > section:nth-of-type(2) {
+	text-align: center;
+	position: relative;
+	padding: 2.5rem 0;
+}
+
+main section:nth-of-type(2) svg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+main section:nth-of-type(2) h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
+	font-size: 44px;
+}
+
+main section:nth-of-type(2) section {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+main section:nth-of-type(2) section:nth-of-type(1) {
+	margin-left: 20vw;
+}
+
+@media (max-width: 800px) {
+	main section:nth-of-type(2) section {
+		float: none;
+		width: 50%;
+		margin: auto;
+		margin-top: 3rem;
+	}
+	main section:nth-of-type(2) section:nth-of-type(1) {
+		margin-left: auto;
+	}
+}
+
+main section:nth-of-type(2) section img {
+	height: 7rem;
+}
+main section:nth-of-type(2) section p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+main section:nth-of-type(2) h3 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 25px;
+	font-weight: normal;
+}
