@@ -566,7 +566,7 @@ main > section:nth-of-type(3) > div {
 	margin-left: 3rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	main > section:nth-of-type(3) > svg {
 		float: none;
 		width: auto;
@@ -668,7 +668,7 @@ main > section:nth-of-type(4) > div {
 	overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	main > section:nth-of-type(4) > svg {
 		float: none;
 		width: auto;
@@ -777,7 +777,7 @@ main > section:nth-of-type(5) > div {
 	margin-top: 3rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	main > section:nth-of-type(5) > object {
 		position: relative;
 		float: none;
@@ -925,7 +925,7 @@ main > section:nth-of-type(7) > div {
 	overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	main > section:nth-of-type(7) > object {
 		float: none;
 		width: auto;
