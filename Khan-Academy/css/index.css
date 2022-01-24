@@ -949,3 +949,56 @@ main > nav ul li a {
 main > nav ul li a:is(:hover, :focus, :active) {
 	box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #1865f2 !important
 }
+
+main > section:nth-of-type(8) {
+	position: relative;
+	padding: 2.5rem 0;
+}
+
+main section:nth-of-type(8) svg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+main section:nth-of-type(8) {
+	text-align: center;
+}
+main section:nth-of-type(8) ul {
+	list-style: none;
+	padding: 0;
+	overflow: auto;
+	width: 75%;
+	margin: auto;
+	height: 6rem;
+}
+main section:nth-of-type(8) ul li {
+	float: left;
+	width: 25%;
+	vertical-align: bottom;
+	height: 2.5rem;
+}
+main section:nth-of-type(8) ul:nth-of-type(1) li {
+	float: left;
+	width: 25%;
+	vertical-align: bottom;
+	height: 2.5rem;
+}
+main section:nth-of-type(8) ul:nth-of-type(2) {
+	width: 90%;
+}
+main section:nth-of-type(8) ul:nth-of-type(2) li {
+	width: 20%;
+}
+main section:nth-of-type(8) ul:nth-of-type(2) li:last-of-type {
+	float: right;
+}
+main section:nth-of-type(8) ul li img {
+	width: 10rem;
+	max-height: 2.5rem;
+}
