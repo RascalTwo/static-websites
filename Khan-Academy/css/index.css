@@ -507,7 +507,7 @@ main section:nth-of-type(2) h3 {
 
 main > section:nth-of-type(3) {
 	max-width: 1200px;
-	overflow: auto;
+	overflow: hidden;
 	margin: auto;
 	margin-top: 5rem;
 	position: relative;
@@ -523,6 +523,19 @@ main > section:nth-of-type(3) > svg {
 
 main > section:nth-of-type(3) > div {
 	margin-left: 3rem;
+}
+
+@media (max-width: 600px) {
+	main > section:nth-of-type(3) > svg {
+		float: none;
+		width: auto;
+		transform: none;
+		position: relative;
+	}
+	main > section:nth-of-type(3) > div {
+		float: none;
+		width: auto;
+	}
 }
 
 main > section:nth-of-type(3) > div > * {
