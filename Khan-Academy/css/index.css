@@ -79,6 +79,10 @@ header nav {
 	border-bottom: 1px solid rgb(214, 216, 218);
 }
 
+header nav:nth-of-type(2) {
+	display: none;
+}
+
 header nav > div:first-of-type {
 	float: left;
 }
@@ -95,7 +99,6 @@ header nav > a {
 	left: 50%;
 	transform: translateX(-50%);
 }
-
 header nav > a:hover {
 	fill: hsl(219, 89%, 52%);
 }
@@ -155,6 +158,46 @@ form input[type="image"] {
 header details {
 	text-align: left;
 	position: relative;
+}
+
+@media (max-width: 800px) {
+	header nav:nth-of-type(1) {
+		display: none;
+	}
+	header nav:nth-of-type(2) {
+		display: block;
+	}
+
+	header nav > a {
+		left: 1rem;
+		transform: none;
+	}
+
+	header nav > div > a > img {
+		position: relative;
+		top: 5px;
+	}
+	header nav > div:first-of-type > * {
+		margin-right: 0;
+		margin-left: 1rem;
+	}
+
+	header details {
+		position: static;
+	}
+	header details details {
+		position: relative;
+	}
+	header details details > section {
+		left: 0;
+	}
+	header nav:nth-of-type(2) details > ul {
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 100%;
+		background: white;
+	}
 }
 
 header summary {
