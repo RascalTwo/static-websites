@@ -814,3 +814,80 @@ main section:nth-of-type(6) > div > div > span > span {
 	font-size: smaller;
 	font-style: italic;
 }
+
+main > section:nth-of-type(7) {
+	max-width: 1200px;
+	overflow: auto;
+	margin: auto;
+	margin-top: 5rem;
+}
+
+main > section:nth-of-type(7) > object {
+	float: left;
+	width: 55%;
+}
+
+main > section:nth-of-type(7) > div {
+	float: left;
+	width: 40%;
+	margin-left: 1rem;
+	height: 28rem;
+	overflow: hidden;
+}
+
+main > section:nth-of-type(7) > div > span:nth-of-type(1) {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: rgba(33, 36, 44, 0.64);
+}
+main > section:nth-of-type(7) > div > span:not(:nth-of-type(1)) {
+	color: rgba(33, 36, 44, 0.64);
+	font-size: 11px;
+	display: block;
+	margin-top: -.5rem;
+	margin-bottom: 1rem;
+}
+
+main > section:nth-of-type(7) > div > h2 {
+	position: relative;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
+	font-size: 44px;
+}
+main > section:nth-of-type(7) > div > h2 div {
+	position: relative;
+	display: inline-block;
+}
+main > section:nth-of-type(7) > div > h2 svg {
+	width: 13rem;
+	position: absolute;
+	z-index: -1;
+	top: -.5rem;
+}
+
+
+main > section:nth-of-type(7) p {
+	width: 24rem;
+	margin-top: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1rem;
+	margin-bottom: 3rem;
+}
+
+
+main section:nth-of-type(7) p + a {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: rgb(24, 101, 242);
+	padding: 1rem;
+	border-radius: 0.25rem;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 0.1rem;
+}
+
+main section:nth-of-type(7) p + a:is(:hover, :focus, :active) {
+	box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #1865f2 !important
+}
