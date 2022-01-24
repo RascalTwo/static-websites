@@ -760,3 +760,57 @@ main section:nth-of-type(5) p + a {
 main section:nth-of-type(5) p + a:is(:hover, :focus, :active) {
 	box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #1865f2 !important
 }
+
+main > section:nth-of-type(6) {
+	position: relative;
+	padding: 2.5rem 0;
+}
+
+main section:nth-of-type(6) svg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+}
+
+main section:nth-of-type(6) > div {
+	margin: auto;
+	margin-top: 5rem;
+	width: 70%;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 32px;
+	line-height: 43px;
+}
+
+
+main section:nth-of-type(6) > div > div {
+	float: right;
+	width: 8rem;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1rem;
+	position: relative;
+	margin-top: 1rem;
+}
+
+main section:nth-of-type(6) > div > div > * {
+	display: inline-block;
+	height: 7rem;
+	width: 7rem;
+}
+
+main section:nth-of-type(6) > div > div > span {
+	text-align: right;
+	width: 7.5rem;
+	position: absolute;
+	left: -9rem;
+	top: 3rem;
+}
+main section:nth-of-type(6) > div > div > span > span {
+	font-size: smaller;
+	font-style: italic;
+}
