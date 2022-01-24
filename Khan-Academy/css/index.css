@@ -148,41 +148,41 @@ form input[type="image"] {
 
 /* #region Courses Dropdown */
 
-details {
+header details {
 	text-align: left;
 	position: relative;
 }
 
-summary {
+header summary {
 	user-select: none;
   cursor: pointer;
 	line-height: 2rem;
 }
 
-summary::marker{
+header summary::marker{
 	content: "";
 }
 
-details[open] > summary::after {
+header details[open] > summary::after {
 	content: " ▲";
 }
 
-summary:is(:active, :focus) {
+header summary:is(:active, :focus) {
   border-bottom: 2px solid rgb(24, 101, 242);
 }
 
-summary::after {
+header summary::after {
 	content: " ▼";
 	right: 1rem;
 	font-size: 0.5rem;
 	vertical-align: middle;
 }
 
-summary > * {
+header summary > * {
   display: inline;
 }
 
-details > section {
+header details > section {
 	position: absolute;
 	background: white;
 	width: 1200px;
@@ -192,136 +192,136 @@ details > section {
 	border-bottom: 1px solid rgb(68, 68, 68);
 }
 
-details ul {
+header details ul {
 	padding: 0;
 	width: 20%;
 	float: left;
 }
 
-details ul:nth-of-type(6) {
+header details ul:nth-of-type(6) {
 	margin-top: -10rem;
 }
 
-details ul:nth-of-type(7) {
+header details ul:nth-of-type(7) {
 	float: right;
 	margin-top: -1rem;
 }
 
-details ul:nth-of-type(8) {
+header details ul:nth-of-type(8) {
 	margin-top: -1rem;
 }
 
-details ul:nth-of-type(9) {
+header details ul:nth-of-type(9) {
 	margin-top: -16rem;
 }
 
-details ul:nth-of-type(10) {
+header details ul:nth-of-type(10) {
 	margin-top: -10rem;
 }
 
-details ul:nth-of-type(1), details ul:nth-of-type(9) {
+header details ul:nth-of-type(1), details ul:nth-of-type(9) {
 	padding-left: 1vw;
 }
 
 @media (max-width: 1200px) {
-	details > section {
+	header details > section {
 		width: 100vw;
 	}
-	details ul {
+	header details ul {
 		width: 25%;
 	}
-	details ul:nth-of-type(n) {
+	header details ul:nth-of-type(n) {
 		padding-left: 0;
 	}
-	details ul:nth-of-type(1), details ul:nth-of-type(8), details ul:nth-of-type(10) {
+	header details ul:nth-of-type(1), header details ul:nth-of-type(8), header details ul:nth-of-type(10) {
 		padding-left: 1vw;
 	}
-	details ul:nth-of-type(5) {
+	header details ul:nth-of-type(5) {
 		margin-top: -1rem;
 	}
-	details ul:nth-of-type(6) {
+	header details ul:nth-of-type(6) {
 		float: right;
 		margin-top: -1rem;
 	}
-	details ul:nth-of-type(7) {
+	header details ul:nth-of-type(7) {
 		margin-top: -2rem;
 	}
-	details ul:nth-of-type(8) {
+	header details ul:nth-of-type(8) {
 		margin-top: -12rem;
 	}
-	details ul:nth-of-type(9) {
+	header details ul:nth-of-type(9) {
 		margin-top: -6rem;
 	}
-	details ul:nth-of-type(10) {
+	header details ul:nth-of-type(10) {
 		margin-top: -19rem;
 	}
 }
 
 @media (max-width: 800px) {
-	details ul {
+	header details ul {
 		width: 33.33%;
 	}
-	details ul:nth-of-type(n) {
+	header details ul:nth-of-type(n) {
 		padding-left: 0;
 	}
-	details ul:nth-of-type(1), details ul:nth-of-type(4), details ul:nth-of-type(8), details ul:nth-of-type(10) {
+	header details ul:nth-of-type(1), header details ul:nth-of-type(4), header details ul:nth-of-type(8), header details ul:nth-of-type(10) {
 		padding-left: 1vw;
 	}
-	details ul:nth-of-type(4) {
+	header details ul:nth-of-type(4) {
 		margin-top: -10rem;
 	}
-	details ul:nth-of-type(5) {
+	header details ul:nth-of-type(5) {
 		margin-top: -5rem;
 	}
-	details ul:nth-of-type(8) {
+	header details ul:nth-of-type(8) {
 		margin-top: -15rem;
 	}
-	details ul:nth-of-type(9) {
+	header details ul:nth-of-type(9) {
 		float: right;
 		margin-top: -1rem;
 	}
-	details ul:nth-of-type(10) {
+	header details ul:nth-of-type(10) {
 		margin-top: -2rem;
 	}
 }
 @media (max-width: 600px) {
-	details ul {
+	header details ul {
 		width: 50%;
 	}
-	details ul:nth-of-type(n) {
+	header details ul:nth-of-type(n) {
 		margin-top: 0;
 		padding-left: 0;
 	}
-	details ul:nth-of-type(1), details ul:nth-of-type(3), details ul:nth-of-type(7), details ul:nth-of-type(9) {
+	header details ul:nth-of-type(1), header details ul:nth-of-type(3), header details ul:nth-of-type(7), header details ul:nth-of-type(9) {
 		padding-left: 1vw;
 	}
-	details ul:nth-of-type(odd) {
+	header details ul:nth-of-type(odd) {
 		float: left;
 	}
-	details ul:nth-of-type(even) {
+	header details ul:nth-of-type(even) {
 		float: right;
 	}
-	details ul:nth-of-type(7) {
+	header details ul:nth-of-type(7) {
 		margin-top: -9rem;
 	}
 }
 
 @media (max-width: 400px) {
-	details ul {
+	header details ul {
 		width: 100%;
 	}
-	details ul:nth-of-type(n) {
+	header details ul:nth-of-type(n) {
 		padding-left: 1vw;
 		margin: 0;
 	}
 }
 
-details ul > li {
+header details ul > li {
 	padding: .5rem 0;
 	display: block;
 }
 
-details ul > li > h2 > a {
+header details ul > li > h2 > a {
 	text-transform: uppercase;
 	color: rgb(10, 42, 102);
 	text-decoration: none;
@@ -330,18 +330,18 @@ details ul > li > h2 > a {
 	font-weight: bold;
 }
 
-details ul > li > h2 > a:is(:hover, :focus) {
+header details ul > li > h2 > a:is(:hover, :focus) {
 	color: hsl(219, 89%, 52%);
 	text-decoration: underline ;
 }
 
-details ul > li a {
+header details ul > li a {
 	font-size: 16px;
 	color: hsl(219, 89%, 52%);
 	text-decoration: none;
 }
 
-details ul li a:is(:hover, :focus) {
+header details ul li a:is(:hover, :focus) {
 	color: hsl(219, 89%, 52%);
 	text-decoration: underline ;
 }
@@ -1001,4 +1001,176 @@ main section:nth-of-type(8) ul:nth-of-type(2) li:last-of-type {
 main section:nth-of-type(8) ul li img {
 	width: 10rem;
 	max-height: 2.5rem;
+}
+
+footer {
+	background: #0a2a66;
+	color: #8295BA;
+}
+
+footer > div a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+}
+
+footer > div ul a {
+	font-size: 12px;
+}
+
+footer > div a:is(:hover, :focus, :active) {
+	text-decoration: underline;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer p {
+	float: left;
+	width: 27%;
+	margin: 1.5rem;
+}
+
+footer nav {
+	float: right;
+	width: 66.66%;
+	overflow: auto;
+}
+
+footer nav ul {
+	width: 33.33%;
+	float: left;
+}
+
+footer nav ul:nth-of-type(4) {
+	margin-top: -8rem;
+}
+
+
+@media (max-width: 800px) {
+	footer p  {
+		float: none;
+		width: 80%;
+		margin: 2rem auto;
+		text-align: center;
+	}
+	footer nav {
+		float: none;
+		width: auto;
+	}
+
+	footer nav ul {
+		width: 50%;
+		float: none;
+		padding-left: 1vw;
+	}
+
+	footer nav ul:nth-of-type(1) {
+		float: left;
+	}
+	footer nav ul:nth-of-type(2) {
+		float: left;
+	}
+	footer nav ul:nth-of-type(3) {
+		float: right;
+	}
+	footer nav ul:nth-of-type(4) {
+		margin-top: 0;
+		float: right;
+	}
+}
+
+footer details {
+	display: inline-block;
+	position: relative;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+footer summary {
+  cursor: pointer;
+	color: white;
+}
+footer summary:is(:hover, :focus, :active) {
+  text-decoration: underline;
+}
+
+footer summary::marker{
+	content: "";
+}
+
+footer details[open] > summary::after {
+	content: " ▲";
+}
+
+
+footer summary::after {
+	content: " ▼";
+	right: 1rem;
+	font-size: 0.5rem;
+	vertical-align: middle;
+}
+
+footer details ul {
+	bottom: 1.5rem;
+	text-align: left;
+	left: 0;
+	position: absolute;
+	background: white;
+	width: 10rem;
+	color: black;
+	height: 50vh;
+	overflow: scroll;
+	padding: 0;
+}
+footer details ul a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 0.5rem;
+}
+footer details ul a:is(:hover, :active, :focus) {
+	background: #1665f2;
+	color: white;
+	text-decoration: none;
+}
+
+footer > div:nth-of-type(1) {
+	overflow: auto;
+}
+
+footer > div:nth-of-type(2) {
+	text-align: center;
+}
+
+footer > div:nth-of-type(2) > div ul {
+	font-size: 12px;
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+footer > div:nth-of-type(2) > div ul li {
+	display: inline-block;
+	padding-right: .25rem;
+}
+footer > div:nth-of-type(2) > div a {
+	color: white;
+	text-decoration: none;
+}
+
+footer > div:nth-of-type(2) > div img {
+	position: relative;
+	top: .2rem;
+	height: 1rem;
+}
+
+footer > div:nth-of-type(2) > ul:nth-of-type(2) {
+	overflow: auto;
+}
+footer > div:nth-of-type(2) > ul:nth-of-type(2) li {
+	display: inline-block;
 }
