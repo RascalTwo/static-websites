@@ -596,7 +596,7 @@ main section:nth-of-type(3) p + a:is(:hover, :focus, :active) {
 
 main > section:nth-of-type(4) {
 	max-width: 1200px;
-	overflow: auto;
+	overflow: hidden;
 	margin: auto;
 	margin-top: 5rem;
 }
@@ -612,6 +612,17 @@ main > section:nth-of-type(4) > div {
 	margin-left: 1rem;
 	height: 28rem;
 	overflow: hidden;
+}
+
+@media (max-width: 600px) {
+	main > section:nth-of-type(4) > svg {
+		float: none;
+		width: auto;
+	}
+	main > section:nth-of-type(4) > div {
+		float: none;
+		width: auto;
+	}
 }
 
 main > section:nth-of-type(4) > div > span:nth-of-type(1) {
