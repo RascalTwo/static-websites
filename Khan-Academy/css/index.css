@@ -901,7 +901,7 @@ main section:nth-of-type(7) p + a:is(:hover, :focus, :active) {
 
 main > nav {
 	margin: auto;
-	overflow: auto;
+	overflow: hidden;
 	height: 800px;
 	text-align: center;
 	margin-top: 5rem;
@@ -947,7 +947,7 @@ main > nav ul li a {
 	margin-right: 0.1rem;
 	padding: 1rem 2rem;
 	margin: 0;
-	width: 30vw;
+	width: 30vmax;
 	display: block;
 	text-align: center;
 	font-weight: bold;
