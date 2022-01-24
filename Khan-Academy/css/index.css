@@ -842,6 +842,17 @@ main > section:nth-of-type(7) > div {
 	overflow: hidden;
 }
 
+@media (max-width: 600px) {
+	main > section:nth-of-type(7) > object {
+		float: none;
+		width: auto;
+	}
+	main > section:nth-of-type(7) > div {
+		float: none;
+		width: auto;
+	}
+}
+
 main > section:nth-of-type(7) > div > span:nth-of-type(1) {
 	text-transform: uppercase;
 	font-size: 14px;
@@ -874,7 +885,6 @@ main > section:nth-of-type(7) > div > h2 svg {
 
 
 main > section:nth-of-type(7) p {
-	width: 24rem;
 	margin-top: 0;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
