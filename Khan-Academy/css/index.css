@@ -197,6 +197,7 @@ header details {
 		right: 0;
 		width: 100%;
 		background: white;
+		z-index: 1;
 	}
 }
 
@@ -472,6 +473,7 @@ main > section:nth-of-type(1) > div > h1 {
 	}
 
 	main > section:nth-of-type(1) > div > h1 {
+		position: relative;
 		font-size: 30px;
 	}
 }
@@ -524,6 +526,15 @@ main section:nth-of-type(1) div h1 svg {
 	top: -2rem;
 	width: 15rem;
 	left: -0.5rem
+}
+
+@media (max-width: 600px) {
+	main section:nth-of-type(1) div h1 svg {
+		position: relative;
+		top: -1rem;
+		width: 9rem;
+		left: -0.5rem
+	}
 }
 
 /* #endregion Hero */
@@ -608,6 +619,7 @@ main > section:nth-of-type(3) > svg {
 
 main > section:nth-of-type(3) > div {
 	margin-left: 3rem;
+	margin-bottom: 3rem;
 }
 
 @media (max-width: 800px) {
@@ -819,6 +831,7 @@ main > section:nth-of-type(5) > object {
 main > section:nth-of-type(5) > div {
 	margin-left: 3rem;
 	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 @media (max-width: 800px) {
