@@ -90,6 +90,9 @@ header nav > div:first-of-type > * {
 
 header nav > a {
 	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 header nav > a:hover {
@@ -183,6 +186,7 @@ header summary > * {
 }
 
 header details > section {
+	z-index: 2;
 	position: absolute;
 	background: white;
 	width: 1200px;
