@@ -70,9 +70,6 @@ header nav > a:last-of-type {
 main > section {
 	overflow: hidden;
 	text-align: center;
-}
-
-.hero {
 	min-height: 75vh;
 }
 
@@ -105,9 +102,45 @@ main > section {
 	vertical-align: middle;
 }
 
+.why h2 {
+	padding-top: 10%;
+	font-size: 4rem;
+}
+
+.why p {
+	width: 50%;
+	margin: auto;
+}
 
 .content {
 	background: #dbdfe2;
+}
+
+.content section {
+	width: 40%;
+	float: left;
+	margin: 5%;
+}
+
+.content section:last-of-type {
+	float: right;
+}
+
+.content div {
+	width: 33.33vw;
+	height: 25vh;
+	background: #66768a;
+	margin: auto;
+}
+
+section > a {
+	background: inherit;
+	border: 1px solid grey;
+	padding: 1rem 3rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border-radius: 0;
+	transition: filter 1s;
 }
 
 footer {
