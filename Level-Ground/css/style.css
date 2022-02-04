@@ -164,3 +164,19 @@ footer {
 	background: #161f2a;
 	color: white;
 }
+
+.volenteer h2 {
+	padding-top: 10%;
+}
+
+.volenteer p {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+	.volenteer p {
+		width: 80%;
+	}
+}
