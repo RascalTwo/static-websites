@@ -63,8 +63,8 @@ header nav > a:first-of-type {
 
 header nav > a:last-of-type {
 	position: absolute;
-	top: 1rem;
-	right: 1rem;
+	top: 0;
+	right: 0;
 }
 
 main > section {
@@ -112,6 +112,12 @@ main > section {
 	margin: auto;
 }
 
+@media (max-width: 600px) {
+	.why p {
+		width: 80%;
+	}
+}
+
 .content {
 	background: #dbdfe2;
 }
@@ -126,9 +132,20 @@ main > section {
 	float: right;
 }
 
+@media (max-width: 600px) {
+	.content section {
+		width: 80%;
+		float: none;
+		margin: 5% auto;
+	}
+	.content section:last-of-type {
+		float: none;
+	}
+}
+
 .content div {
 	width: 33.33vw;
-	height: 25vh;
+	height: 25vmin;
 	background: #66768a;
 	margin: auto;
 }
