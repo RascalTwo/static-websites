@@ -7,3 +7,110 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:is(:focus, :active, :hover) {
+	text-decoration: underline;
+}
+
+p {
+	font-size: 2rem;
+}
+
+img[src="assets/logo.png"] {
+	width: 50px;
+}
+
+header, .hero {
+	background: #66768a;
+	color: white;
+}
+
+header nav {
+	overflow: hidden;
+	height: 5rem;
+}
+
+header nav > * {
+	padding: 2rem;
+}
+
+header nav li {
+	margin-left: 1rem;
+}
+
+header nav > a:first-of-type {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 1rem;
+}
+
+header nav > a:last-of-type {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+main > section {
+	overflow: hidden;
+	text-align: center;
+}
+
+.hero {
+	min-height: 75vh;
+}
+
+.hero h1 {
+	padding-top: 10%;
+	font-size: 5rem;
+}
+
+.hero > h1, .hero > p {
+	width: 80%;
+	margin: 2rem auto;
+}
+
+.hero button {
+	all: unset;
+	cursor: pointer;
+	font-size: 1.5rem;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.hero button::before {
+	content: "";
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background: url(../assets/play-icon.png);
+	background-size: contain;
+	padding-right: 0.5rem;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+
+.content {
+	background: #dbdfe2;
+}
+
+footer {
+	background: #161f2a;
+	color: white;
+}
