@@ -91,7 +91,9 @@ main > section {
 	all: unset;
 	cursor: pointer;
 	font-size: 1.5rem;
-	color: rgba(255, 255, 255, 0.75);
+	color: white;
+	padding: 1%;
+	border-radius: 1rem;
 }
 
 .hero button::before {
@@ -104,6 +106,10 @@ main > section {
 	padding-right: 0.5rem;
 	background-repeat: no-repeat;
 	vertical-align: middle;
+}
+
+.hero button:is(:focus, :active, :hover){
+	background-color: rgba(0, 0, 0, 0.25);
 }
 
 .why h2 {
@@ -216,7 +222,7 @@ footer img {
 }
 
 footer span {
-	color: gray;
+	color: hsl(0, 0%, 75%);
 }
 
 footer div section {
