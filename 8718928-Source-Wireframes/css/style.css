@@ -149,3 +149,40 @@ input {
 		width: 100%;
 	}
 }
+
+.features {
+	margin: 5%;
+	overflow: hidden;
+}
+
+.features section {
+	display: inline-block;
+	width: 20%;
+	margin: 0 2%;
+}
+
+.features img {
+	width: 2.5rem;
+}
+
+.features a {
+	font-weight: bold;
+}
+
+.features a::after {
+	content: "❯";
+	padding-left: 0.5rem;
+	font-size: smaller;
+	vertical-align: top;
+}
+
+@media (max-width: 600px) {
+	.features section {
+		width: 66.66%;
+		margin: 2%;
+	}
+	.features section:nth-of-type(even) {
+		text-align: right;
+		float: right;
+	}
+}
