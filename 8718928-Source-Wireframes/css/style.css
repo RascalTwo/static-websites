@@ -85,9 +85,67 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	margin: 0 0.5rem;
+	margin: 0 0.75rem;
 }
 
 nav button {
 	float: right;
+}
+
+.hero {
+	overflow: auto;
+}
+
+.hero span {
+	color: grey;
+	font-size: smaller;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.hero div {
+	margin: 5%;
+	width: 40%;
+	float: left;
+}
+
+.hero img {
+	width: 50vw;
+}
+
+@media (max-width: 600px) {
+	.hero div {
+		width: auto;
+		float: none;
+	}
+
+	.hero img {
+		width: 100vw;
+	}
+}
+
+form {
+	background: #e1e9f0;
+	width: max-content;
+}
+
+input {
+	background: #e1e9f0;
+	border: 0;
+	padding: 0.5rem 1rem;
+}
+
+@media (max-width: 600px) {
+	form {
+		background: inherit;
+		width: 100%;
+	}
+	input {
+		display: block;
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	form button {
+		width: 100%;
+	}
 }
