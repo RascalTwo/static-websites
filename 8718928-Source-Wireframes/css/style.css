@@ -160,6 +160,9 @@ input {
 	width: 20%;
 	margin: 0 2%;
 }
+.features section:first-of-type {
+	margin-left: 0;
+}
 
 .features img {
 	width: 2.5rem;
@@ -185,4 +188,18 @@ input {
 		text-align: right;
 		float: right;
 	}
+}
+
+.information {
+	margin: 5%;
+}
+
+.information p {
+	width: 50%;
+}
+
+.information div {
+	width: 100%;
+	background: #e1e9f0;
+	height: 80vh;
 }
