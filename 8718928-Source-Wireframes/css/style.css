@@ -110,7 +110,8 @@ nav button {
 }
 
 .hero img {
-	width: 50vw;
+	width: 49vw;
+	float: right;
 }
 
 @media (max-width: 600px) {
