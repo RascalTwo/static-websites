@@ -219,7 +219,7 @@ main > section span:nth-of-type(1) {
 
 .cuisine-options {
 	margin: 0 10%;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .cuisine-options section {
