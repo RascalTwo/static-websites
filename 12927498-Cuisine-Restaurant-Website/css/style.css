@@ -339,10 +339,8 @@ html .cuisine-options section span {
 
 
 @media (max-width: 800px) {
-	.hours section:nth-of-type(2) {
-		margin-top: 1rem;
-		position: static;
-		text-align: right;
+	.hours {
+		margin: 0 12.5%;
 	}
 }
 
@@ -357,6 +355,31 @@ html .cuisine-options section span {
 }
 
 .book-table > img {
-	height: 50vh;
+	width: 90vmin;
 	padding: 2rem;
+}
+
+.testimonials {
+	text-align: center;
+}
+
+.testimonials img {
+	width: 10vmax;
+	border-radius: 100%;
+}
+
+.testimonials section h3 {
+	margin: 0;
+}
+
+html .testimonials section span {
+	color: grey;
+	font-size: 0.9rem;
+}
+
+.testimonials p {
+	width: 80%;
+	font-style: italic;
+	margin: auto;
+	line-height: 1.5rem;
 }
