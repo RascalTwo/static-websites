@@ -30,6 +30,26 @@ h1 {
 	font-size: 4rem;
 }
 
+h2 {
+	font-size: 3rem;
+}
+
+.orange-button {
+	padding: 0.75rem;
+	background: #f80;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.stars {
+	color: #ffaf51;
+	font-size: 2rem;
+}
 
 @media (max-width: 800px) {
 	h1 {
@@ -111,13 +131,6 @@ input:focus {
 	outline: none;
 }
 
-button {
-	padding: 0.75rem;
-	background: #f80;
-	color: white;
-	border: none;
-}
-
 
 header section nav img {
 	height: 0.75rem;
@@ -183,4 +196,107 @@ main > section span:nth-of-type(1) {
 	line-height: 3.1rem;
 	border-top-right-radius: 0.5rem;
 	border-bottom-right-radius: 0.5rem;
+}
+
+.order-online-now {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.order-online-now ul button {
+	border: 0;
+	border-bottom: 1px solid grey;
+	padding: 1rem;
+	background: none;
+	margin: 0;
+	cursor: pointer;
+}
+
+.order-online-now ul button:is(:focus, :active, :hover) {
+	border-bottom: 1px solid #f80;
+	color: #f80;
+}
+
+.cuisine-options {
+	margin: 0 10%;
+	overflow: auto;
+}
+
+.cuisine-options section {
+	float: left;
+	background: var(--bg-image);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	width: 19vw;
+	height: 33vmin;
+	margin: 0.5vw;
+}
+
+@media (max-width: 800px) {
+	.cuisine-options section {
+		float: none;
+		background-image: var(--bg-image);
+		background-size: cover;
+		position: relative;
+		width: 79vw;
+		height: 50vh;
+	}
+}
+
+
+html .cuisine-options section span {
+	display: block;
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	background: #f80;
+	color: white;
+	border-radius: 1rem;
+	padding: 0.3rem 1rem;
+}
+
+.cuisine-options section h3 {
+	margin: 1rem;
+}
+
+.cuisine-options section:is(:hover, :active, :focus) > div {
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-top: 25%;
+}
+
+.cuisine-options section > div {
+	display: none;
+}
+
+.cuisine-options .price {
+	font-size: 1.5rem;
+}
+
+.carousel-indicators {
+	margin-top: 1rem;
+}
+
+.carousel-indicators button {
+	font-size: 0;
+	width: 5px;
+	height: 5px;
+	padding: 0;
+	border: 0;
+	background: rgb(255, 136, 0, 0.5);
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.carousel-indicators button.active {
+	width: 7.5px;
+	height: 7.5px;
+	background: #f80;
 }
