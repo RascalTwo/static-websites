@@ -212,7 +212,7 @@ main > section span:nth-of-type(1) {
 	cursor: pointer;
 }
 
-.order-online-now ul button:is(:focus, :active, :hover) {
+.order-online-now ul button:is(:focus, :active, :hover, .active) {
 	border-bottom: 1px solid #f80;
 	color: #f80;
 }
@@ -230,7 +230,7 @@ main > section span:nth-of-type(1) {
 	position: relative;
 	width: 19vw;
 	height: 33vmin;
-	margin: 0.5vw;
+	margin: 0.3vw;
 }
 
 @media (max-width: 800px) {
@@ -260,7 +260,7 @@ html .cuisine-options section span {
 	margin: 1rem;
 }
 
-.cuisine-options section:is(:hover, :active, :focus) > div {
+.cuisine-options section:is(:hover, :active, :focus, :focus-within) > div {
 	display: block;
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
