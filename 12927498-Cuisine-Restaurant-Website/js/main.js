@@ -17,4 +17,4 @@ const shuffleFoodItems = (() => {
 })();
 document.querySelectorAll('.carousel-indicators:nth-of-type(1), .order-online-now ul').forEach(element => makeButtonsInteractive(element, shuffleFoodItems))
 
-makeButtonsInteractive(document.querySelector('.carousel-indicators:nth-of-type(2)'))
+makeButtonsInteractive(document.querySelector('.carousel-indicators'))
