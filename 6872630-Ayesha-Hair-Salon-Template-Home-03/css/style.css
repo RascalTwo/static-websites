@@ -211,3 +211,47 @@ h1 {
 	padding-bottom: 1rem;
 }
 
+.staff {
+	text-align: center;
+	margin: 5%;
+	overflow: hidden;
+}
+
+.staff section {
+	width: 30%;
+	float: left;
+	margin: 0 1.5%;
+}
+
+.staff img {
+	width: 100%;
+}
+
+@media (max-width: 800px) {
+	.staff section {
+		width: max-content;
+		float: none;
+		margin: auto;
+		height: 75vh;
+	}
+	.staff img {
+		width: auto;
+		height: 80%;
+	}
+}
+
+.staff div {
+	color: white;
+	background: black;
+	padding: 1rem 0;
+	position: relative;
+	top: -0.25rem;
+}
+
+.staff h4 {
+	margin-top: 0;
+}
+
+.staff span {
+	font-size: smaller;
+}
