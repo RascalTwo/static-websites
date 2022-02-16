@@ -91,6 +91,7 @@ nav img {
 }
 
 .hero {
+	position: relative;
 	background: url(../assets/hero.jpg);
 	background-size: cover;
 	background-position: right;
@@ -111,6 +112,15 @@ nav img {
 	.hero {
 		padding: 5vmin;
 	}
+}
+
+.hero > span {
+	position: absolute;
+	right: 2.5vw;
+	bottom: 15vh;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-weight: bold;
 }
 
 h1 {
