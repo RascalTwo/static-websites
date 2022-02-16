@@ -29,6 +29,7 @@ nav {
 nav > a {
 	float: left;
 	margin: 1rem;
+	margin-left: 5rem;
 }
 
 nav > a img {
@@ -77,6 +78,11 @@ nav ul li:nth-of-type(1n+7){
 	cursor: pointer;
 }
 
+.book-online::before {
+	content: "—";
+	padding-right: 0.5rem;
+}
+
 nav .book-online {
 	float: right;
 	position: relative;
@@ -85,4 +91,69 @@ nav .book-online {
 
 nav img {
 	height: 1.5rem;
+}
+
+.hero {
+	background: url(../assets/hero.jpg);
+	background-size: cover;
+	background-position: right;
+	height: 90vh;
+	color: white;
+	padding: 10%;
+	position: relative;
+}
+
+h1 {
+	font-size: 5rem;
+	font-weight: 100;
+}
+
+.percent {
+	font-size: 2rem;
+}
+
+.hero .coupon {
+	background: black;
+	width: 18rem;
+	padding: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	bottom: 0;
+}
+
+.hero .coupon > span {
+	border-left: 3px solid white;
+	padding-left: 2rem;
+	position: relative;
+	left: -2rem;
+	height: 3rem;
+	display: inline-block;
+	line-height: 3rem;
+}
+
+.black-link {
+	background: black;
+	color: white;
+	padding: 1rem;
+}
+
+.black-link::before {
+	content: "—";
+	padding-right: 0.5rem;
+}
+.hero > * {
+	margin-bottom: 2rem;
+}
+
+.carousel-controls {
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+}
+
+.carousel-controls button {
+	border-radius: 100%;
+	border: 0;
+	cursor: pointer;
+	padding: 0.5rem;
 }
