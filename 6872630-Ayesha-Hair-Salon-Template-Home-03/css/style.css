@@ -157,3 +157,22 @@ h1 {
 	cursor: pointer;
 	padding: 0.5rem;
 }
+
+.services {
+	margin: 5%;
+	overflow: auto;
+	text-align: center;
+}
+
+.services section {
+	width: 30%;
+	float: left;
+	margin: 0 1.5%;
+}
+
+@media (max-width: 600px) {
+	.services section {
+		width: auto;
+		float: none;
+	}
+}
