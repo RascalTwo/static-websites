@@ -7,9 +7,6 @@ html {
 	box-sizing: inherit;
 }
 
-*, *::before, *::after {
-	outline: 1px solid black;
-}
 
 a {
 	color: inherit;
@@ -275,4 +272,20 @@ h1 {
 .offer div > span {
 	font-size: smaller;
 	line-height: 1rem;
+}
+
+.lookbook {
+	margin: 5%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.lookbook section {
+	width: 33%;
+	float: left;
+}
+
+.lookbook img {
+	width: 100%;
+	padding: 1%;
 }
