@@ -176,3 +176,38 @@ h1 {
 		float: none;
 	}
 }
+
+.momentum {
+	margin: 5%;
+	overflow: hidden;
+}
+.momentum img {
+	float: right;
+	width: 50%;
+	margin: 5%;
+}
+
+.momentum div {
+	margin-top: 7.5vw;
+}
+
+@media (max-width: 800px) {
+	.momentum  {
+		text-align: center;
+	}
+	.momentum img {
+		float: none;
+		width: 50%;
+		margin: auto;
+		display: block;
+	}
+	.momentum div {
+		margin-top: 0;
+		margin-bottom: 5%;
+	}
+}
+
+.momentum p {
+	padding-bottom: 1rem;
+}
+
