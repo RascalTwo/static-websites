@@ -6,3 +6,83 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+*, *::before, *::after {
+	outline: 1px solid black;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0%;
+}
+
+nav {
+	overflow: auto;
+}
+
+nav > a {
+	float: left;
+	margin: 1rem;
+}
+
+nav > a img {
+	height: 2rem;
+}
+
+nav > ul {
+	text-align: center;
+	position: absolute;
+	top: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: max-content;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 2.5vw;
+	height: 2rem;
+}
+
+nav ul li:nth-of-type(1n+7){
+	vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+	nav li:nth-of-type(1), nav li:nth-of-type(2), nav li:nth-of-type(5) {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	nav li:nth-of-type(3), nav li:nth-of-type(4), nav li:nth-of-type(6) {
+		display: none;
+	}
+}
+
+.book-online {
+	padding: 1rem;
+	color: black;
+	background: white;
+	text-decoration: none;
+}
+.book-online:is(:hover, :focus, :active) {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+nav .book-online {
+	float: right;
+	position: relative;
+	top: -0.5rem;
+}
+
+nav img {
+	height: 1.5rem;
+}
