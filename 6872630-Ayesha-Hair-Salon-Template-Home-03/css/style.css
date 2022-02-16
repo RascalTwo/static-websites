@@ -255,3 +255,24 @@ h1 {
 .staff span {
 	font-size: smaller;
 }
+
+.offer {
+	margin: 5%;
+	overflow: hidden;
+	line-height: 2rem;
+	font-size: 3vmin;
+}
+
+.offer img {
+	float: right;
+	height: 50vw;
+}
+
+.offer div {
+	margin-top: 12.5vmin;
+}
+
+.offer div > span {
+	font-size: smaller;
+	line-height: 1rem;
+}
