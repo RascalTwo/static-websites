@@ -47,6 +47,10 @@ a[class^="btn"] {
 	background: rgba(255, 255, 255, 0.25);
 	color: white;
 }
+.btn-black {
+	background: var(--dark-blue);
+	color: white;
+}
 
 
 figure {
@@ -56,6 +60,7 @@ figure {
 	background: #ddd;
 	margin: 0;
 	min-width: max-content;
+	transition: 500ms color, 500ms background;
 }
 figure.dark {
 	color: white;
@@ -204,3 +209,58 @@ header section >div:last-of-type div a:last-of-type::before {
 .as-seen-on img {
 	height: 3rem;
 }
+
+main > section {
+	margin: 5%;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+p {
+	line-height: 1.75rem;
+}
+
+.about-us {
+	overflow: auto;
+}
+
+.about-us > * {
+	width: 50%;
+	float: left;
+}
+
+.about-us a {
+	position: relative;
+	top: 5vh;
+}
+
+.about-us > section {
+	overflow: hidden;
+}
+
+.about-us > section > section {
+	width: 40%;
+	float: left;
+	margin: 5%;
+	text-align: center;
+	height: 15rem;
+}
+
+@media (max-width: 1000px) {
+	.about-us > section {
+		margin-top: 10vh;
+	}
+
+	.about-us > * {
+		width: auto;
+		float: none;
+	}
+}
+
+.about-us > section > section:is(:hover, :active, :focus) {
+	box-shadow: 0px 7.5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
