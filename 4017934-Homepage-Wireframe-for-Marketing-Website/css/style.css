@@ -337,3 +337,87 @@ p {
 .how-it-works li p {
 	margin-left: 1.75rem;
 }
+
+.features {
+	margin: 0;
+	overflow: auto;
+}
+
+.features > * {
+	margin: 0 5% 5% 5%;
+}
+
+.features .bg {
+	margin: 0;
+	position: absolute;
+	z-index: -1;
+	clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+	background: radial-gradient(circle at 75% 75%, var(--light-blue), var(--dark-blue));
+	width: 100%;
+	height: 70%;
+}
+@media (max-width: 800px) {
+	.features .bg {
+		clip-path: none;
+	}
+}
+
+.features > section:nth-of-type(2) > section {
+	background: white;
+	padding: 1rem;
+	margin: 1rem;
+	float: left;
+	width: 30%;
+	height: 20vh;
+	border-radius: 1rem;
+	box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+}
+
+
+.features > section:nth-of-type(2) > section:nth-of-type(n+4) {
+	position: relative;
+	left: 5%;
+}
+@media (max-width: 1000px) {
+	.features .bg {
+		height: 90%;
+		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+	}
+	.features > section:nth-of-type(2) > section {
+		width: 40%;
+	}
+	.features > section:nth-of-type(2) > section:nth-of-type(n+3) {
+		position: relative;
+		left: 5%;
+	}
+	.features > section:nth-of-type(2) > section:nth-of-type(n+5) {
+		position: static;
+	}
+}
+
+@media (max-width: 600px) {
+	.features .bg {
+		height: 150vh;
+	}
+	.features > section:nth-of-type(2) > section {
+		width: auto;
+		float: none;
+	}
+	.features > section:nth-of-type(2) > section:nth-of-type(n) {
+
+		position: static;
+	}
+}
+
+.features > section:nth-of-type(2) > section:nth-of-type(2) {
+	text-align: center;
+	line-height: 18vh;
+}
+
+.features > section:nth-of-type(2) span {
+	font-weight: bold;
+}
+
+.features > section:nth-of-type(2) .checkbox::before {
+	right: 0;
+}
