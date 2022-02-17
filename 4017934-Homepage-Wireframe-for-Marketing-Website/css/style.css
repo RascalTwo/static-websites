@@ -421,3 +421,48 @@ p {
 .features > section:nth-of-type(2) .checkbox::before {
 	right: 0;
 }
+
+.testimonials {
+	text-align: center;
+	position: relative;
+}
+
+.testimonials .arrow-left {
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.testimonials .arrow-right {
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.testimonials li {
+	width: 66.66%;
+	margin: auto;
+}
+
+.testimonials p {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.testimonials section > div:first-of-type {
+	background: #dde0e9;
+	border-radius: 100%;
+	width: 4rem;
+	height: 4rem;
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.testimonials section > div:last-child {
+	display: inline-block;
+}
+.testimonials span {
+	color: grey;
+}
