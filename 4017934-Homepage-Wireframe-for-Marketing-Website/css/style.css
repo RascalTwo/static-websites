@@ -30,10 +30,70 @@ a:is(:active, :focus, :hover){
 	text-decoration: underline;
 }
 
+p {
+	color: gray;
+}
+
+
+a[class^="btn"] {
+	padding: 1.5rem 3rem;
+	font-weight: bold;
+}
+.btn-white {
+	background: white;
+	color: var(--dark-blue);
+}
+.btn-glass {
+	background: rgba(255, 255, 255, 0.25);
+	color: white;
+}
+
+
+figure {
+	padding: 2rem;
+	text-align: center;
+	color: black;
+	background: #ddd;
+	margin: 0;
+	min-width: max-content;
+}
+figure.dark {
+	color: white;
+	background: var(--dark-blue);
+}
+figure.dark img {
+	filter: invert(1);
+}
+.placeholder-wrapper {
+	padding: 7.5rem;
+	background: #ddd;
+	min-width: max-content;
+}
+
+
 header {
 	color: white;
+	height: 60vh;
+	position: relative;
+}
+@media (max-width: 800px) {
+	header {
+		height: 100%;
+	}
+}
+
+header .bg {
+	position: absolute;
+	z-index: -1;
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 	background: radial-gradient(circle at 75% 75%, var(--light-blue), var(--dark-blue));
-	height: 50vh;
+	width: 100%;
+	height: 100%;
+}
+@media (max-width: 800px) {
+	header .bg {
+		clip-path: none;
+	}
 }
 
 header nav {
@@ -61,15 +121,44 @@ header li a.active {
 	color: white;
 }
 
-a[class^="btn"] {
-	padding: 1.5rem 3rem;
-	font-weight: bold;
+
+header section {
+	height: 100%;
 }
-.btn-white {
-	background: white;
-	color: var(--dark-blue);
+
+header section .placeholder-wrapper {
+	float: right;
+	margin-right: 10%;
+	border: 2rem solid white;
+	border-top-width: 1rem;
+	border-bottom-width: 1rem;
+	border-radius: 1rem;
+	box-shadow: 0 .1rem 5rem black;
+	width: 33.33%;
 }
-.btn-glass {
-	background: rgba(255, 255, 255, 0.25);
-	color: white;
+header section > div:last-of-type {
+	width: 50%;
+}
+@media (max-width: 800px) {
+	header section .placeholder-wrapper {
+		float: none;
+		margin: auto;
+		width: 75%;
+	}
+	header section > div:last-of-type {
+		width: 95%;
+	}
+}
+
+header section > div:last-of-type > * {
+	padding-bottom: 2rem;
+	margin-left: 10%;
+}
+
+header section >div:last-of-type div a {
+	margin-right: 1rem;
+}
+header section >div:last-of-type div a:last-of-type::before {
+	content: "> ";
+	color: gray;
 }
