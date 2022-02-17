@@ -501,3 +501,53 @@ p {
 		width: 100%;
 	}
 }
+
+footer {
+	margin: 2.5%;
+	overflow: auto;
+}
+
+footer > * {
+	width: 16.6666%;
+	float: left;
+}
+
+footer li {
+	display: block;
+	color: grey;
+	margin: 2rem 0.5rem;
+}
+
+footer h4 {
+	color: var(--dark-blue);
+}
+
+footer ul:nth-of-type(3) {
+	padding-top: 3rem;
+}
+
+footer ul:last-of-type li {
+	display: inline-block;
+}
+
+@media (max-width: 1000px) {
+	footer .checkbox::before {
+		display: none;
+	}
+}
+@media (max-width: 800px) {
+	footer > * {
+		width: 33.3333%;
+		height: 36vh;
+	}
+	footer ul:last-of-type {
+		float: right;
+		position: relative;
+		margin-top: -10%;
+	}
+}
+@media (max-width: 600px) {
+	footer > * {
+		width: 50%;
+	}
+}
