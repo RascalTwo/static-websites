@@ -1,4 +1,7 @@
-/* Box Model Hack */
+:root {
+	--dark-blue: hsl(223, 28%, 10%);
+	--light-blue: hsl(223, 28%, 20%);
+}
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
@@ -6,4 +9,67 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:is(:active, :focus, :hover){
+	text-decoration: underline;
+}
+
+header {
+	color: white;
+	background: radial-gradient(circle at 75% 75%, var(--light-blue), var(--dark-blue));
+	height: 50vh;
+}
+
+header nav {
+	padding: 3rem 5rem;
+	text-align: end;
+}
+
+header nav > a {
+	position: absolute;
+	top: 3rem;
+	left: 5rem;
+	border: 2px solid white;
+	border-radius: 100%;
+	width: 1.5rem;
+	height: 1.5rem;
+	display: inline-block;
+}
+
+header li {
+	margin-left: 3rem;
+	color: hsl(0, 0%, 75%);
+}
+
+header li a.active {
+	color: white;
+}
+
+a[class^="btn"] {
+	padding: 1.5rem 3rem;
+	font-weight: bold;
+}
+.btn-white {
+	background: white;
+	color: var(--dark-blue);
+}
+.btn-glass {
+	background: rgba(255, 255, 255, 0.25);
+	color: white;
 }
