@@ -232,9 +232,8 @@ p {
 	float: left;
 }
 
-.about-us a {
-	position: relative;
-	top: 5vh;
+.about-us > div > *:nth-last-child(2) {
+	margin-bottom: 5%;
 }
 
 .about-us > section {
@@ -250,10 +249,6 @@ p {
 }
 
 @media (max-width: 1000px) {
-	.about-us > section {
-		margin-top: 10vh;
-	}
-
 	.about-us > * {
 		width: auto;
 		float: none;
@@ -264,3 +259,23 @@ p {
 	box-shadow: 0px 7.5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
+.solution-based {
+	overflow: hidden;
+}
+
+.solution-based > * {
+	width: 45%;
+	float: left;
+	margin: 2.5%;
+}
+
+@media (max-width: 800px) {
+	.solution-based > * {
+		width: auto;
+		float: none;
+	}
+}
+
+.solution-based > div:nth-of-type(2) > *:nth-last-child(2) {
+	margin-bottom: 5%;
+}
