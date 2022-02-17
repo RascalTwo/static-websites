@@ -113,7 +113,7 @@ header nav > a {
 }
 
 header li {
-	margin-left: 3rem;
+	margin-left: 2.5vw;
 	color: hsl(0, 0%, 75%);
 }
 
@@ -121,6 +121,18 @@ header li a.active {
 	color: white;
 }
 
+
+@media (max-width: 800px) {
+	header li:nth-of-type(even) {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	header li:nth-of-type(odd) {
+		display: none;
+	}
+}
 
 header section {
 	height: 100%;
