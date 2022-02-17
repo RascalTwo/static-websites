@@ -174,3 +174,33 @@ header section >div:last-of-type div a:last-of-type::before {
 	content: "> ";
 	color: gray;
 }
+
+.as-seen-on {
+	width: max-content;
+	margin-left: auto;
+}
+
+.as-seen-on li {
+	display: inline-block;
+}
+.as-seen-on li::after {
+	content: "";
+	padding-right: 2vw;
+}
+
+@media (max-width: 800px) {
+	.as-seen-on li::after {
+		padding-right: 0;
+	}
+}
+@media (max-width: 700px) {
+	.as-seen-on {
+		width: auto;
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+.as-seen-on img {
+	height: 3rem;
+}
