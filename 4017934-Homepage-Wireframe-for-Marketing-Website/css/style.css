@@ -529,6 +529,10 @@ footer {
 	overflow: auto;
 }
 
+footer ul {
+	margin: 0;
+}
+
 footer > * {
 	width: 16.6666%;
 	float: left;
@@ -567,9 +571,30 @@ footer ul:last-of-type li {
 		position: relative;
 		margin-top: -10%;
 	}
+	footer ul:nth-of-type(4), footer ul:nth-of-type(5), footer ul:nth-of-type(7) {
+		height: max-content;
+	}
+	footer ul:nth-of-type(5), footer ul:nth-of-type(6) {
+		margin-top: 5%;
+	}
+	footer ul:nth-of-type(7) {
+		margin-top: 0;
+	}
 }
 @media (max-width: 600px) {
 	footer > * {
 		width: 50%;
+	}
+	footer ul:nth-last-of-type(3), footer ul:last-of-type {
+		margin-top: -25%;
+		height: max-content;
+	}
+	footer ul:nth-of-type(4), footer ul:nth-of-type(5) {
+		margin-top: 10%;
+	}
+	footer ul:nth-of-type(7) {
+		margin-top: 0;
+		width: 100%;
+		text-align: center;
 	}
 }
