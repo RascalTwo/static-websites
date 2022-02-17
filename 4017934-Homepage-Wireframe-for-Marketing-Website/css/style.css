@@ -466,3 +466,38 @@ p {
 .testimonials span {
 	color: grey;
 }
+
+.call-to-action {
+	background: var(--dark-blue);
+	color: white;
+	margin: 0;
+	overflow: hidden;
+}
+
+.call-to-action > * {
+	margin: 5% 7.5%;
+	display: inline-block;
+	width: 34%;
+}
+
+.call-to-action > div:last-of-type {
+	text-align: center;
+}
+
+.call-to-action a:first-of-type {
+	margin-right: 5%;
+}
+
+@media (max-width: 1200px) {
+	.call-to-action > * {
+		margin: 5% 2.5%;
+		width: 44%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.call-to-action > * {
+		text-align: center;
+		width: 100%;
+	}
+}
