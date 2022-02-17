@@ -277,6 +277,11 @@ p {
 	.about-us > * {
 		width: auto;
 		float: none;
+		padding-bottom: 7.5vh;
+	}
+	.about-us > .btn-black {
+		position: relative;
+		top: 2.5vh;
 	}
 }
 
@@ -298,6 +303,11 @@ p {
 	.image-left-content-right > * {
 		width: auto;
 		float: none;
+		padding-bottom: 7.5vh;
+	}
+	.image-left-content-right .btn-black {
+		position: relative;
+		top: 2.5vh;
 	}
 }
 
@@ -322,6 +332,16 @@ p {
 	font-weight: bold;
 }
 
+@media (max-width: 800px) {
+	.how-it-works {
+		padding-bottom: 10vh;
+	}
+	.how-it-works .btn-black {
+		position: relative;
+		top: 2.5vh;
+	}
+}
+
 .checkbox::before {
 	content: " ";
 	border: 2px solid var(--dark-blue);
@@ -341,6 +361,7 @@ p {
 .features {
 	margin: 0;
 	overflow: auto;
+	padding-bottom: 10vh;
 }
 
 .features > * {
@@ -499,6 +520,7 @@ p {
 	.call-to-action > * {
 		text-align: center;
 		width: 100%;
+		padding: 7.5vh 0;
 	}
 }
 
