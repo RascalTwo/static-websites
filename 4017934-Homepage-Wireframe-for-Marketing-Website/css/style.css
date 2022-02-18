@@ -31,7 +31,7 @@ a:is(:active, :focus, :hover){
 }
 
 p {
-	color: gray;
+	color: hsl(0, 0%, 25%);
 }
 
 
@@ -110,6 +110,10 @@ header {
 	header {
 		height: 100%;
 	}
+}
+
+header p {
+	color: hsl(0, 0%, 75%);
 }
 
 header .bg {
@@ -485,7 +489,7 @@ p {
 	display: inline-block;
 }
 .testimonials span {
-	color: grey;
+	color: hsl(0, 0%, 25%);
 }
 
 .call-to-action {
@@ -540,7 +544,7 @@ footer > * {
 
 footer li {
 	display: block;
-	color: grey;
+	color: hsl(0, 0%, 25%);
 	margin: 2rem 0.5rem;
 }
 
